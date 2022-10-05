@@ -1,4 +1,19 @@
 * {
   padding: 0;
-  margin: 0;  
+  margin: 0;
+  box-sizing: border-box; 
+}
+
+body {
+    font-family: "Playfair Display", serif;
+}
+
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    background: radial-gradient(
+        134.34% 134.34% at 50% 0%,
+        #006effea 0%,
+        #030308 100%
+    );
 }
