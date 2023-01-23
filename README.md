@@ -105,7 +105,7 @@ The `updateClock() function is used to update the clock on the game's screen, us
 The handleClick() function is used to handle the user's choice of Rock, Paper, Scissors, Lizard, or Spock and determine the outcome of the game.
 The event listeners are used to listen for specific actions such as clicking a button or uploading an audio file, and respond with a specific action such as playing audio or opening a modal window.
 
-Overall, the HTML, CSS, and JavaScript code work together to create an interactive Rock, Paper, Scissors, Lizard, Spock game that includes a clock, audio player, modal window, and sound switch.
+The HTML, CSS, and JavaScript code work together to create an interactive Rock, Paper, Scissors, Lizard, Spock game that includes a clock, audio player, modal window, and sound switch.
 The HTML provides the structure, the CSS provides the styling, and the JavaScript provides the interactivity and logic, making for a seamless and engaging user experience.
 The game also includes additional features such as background sound and a score card, making it a well-rounded and fully-featured game.
 
@@ -131,7 +131,7 @@ The html element has a number of CSS styles applied to it including font-size, b
 The .header class is used to style the header element, and the .clock class is used to style the clock element.
 The .box class is used to style the container for the audio player, and the .audio-player class is used to style the audio player itself. The .circle-button class is used to style the play button, and the .audio-controls class is used to style the audio controls.
 
-Overall, this code provides a functioning rock-paper-scissors-lizard-spock game with an audio player and clock feature as well as a modal window for displaying rules. The HTML and CSS code provides the structure and layout for the page, and the JavaScript code provides the functionality for the game, audio player, clock, and modal window.
+This code provides a functioning rock-paper-scissors-lizard-spock game with an audio player and clock feature as well as a modal window for displaying rules. The HTML and CSS code provides the structure and layout for the page, and the JavaScript code provides the functionality for the game, audio player, clock, and modal window.
 The use of CSS classes and the dataset property in the JavaScript code allows for easy modification and customization of the game. Additionally, the use of mathematical methods such as Math.floor() and Math.random() allows for random selection of the computer player's choice.
 The JavaScript code provided in this essay is used to create an interactive Rock, Paper, Scissors, Lizard, Spock game.
 The code uses JavaScript to handle user interactions, update the game state and display the results.
