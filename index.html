@@ -36,7 +36,21 @@
         <div class="score" role="region">
             <span>Score</span>
             <span id="score">0</span>
-        </div>   
+        </div>
+        <div class="box">
+            <div class="audio-player">
+              <audio id="audio"></audio>
+              <div class="audio-controls">
+                <button id="play-button" class="circle-button">
+                  <i class="fas fa-play" id="play-icon"></i>
+                </button>
+                <input type="file" id="audio-file" accept="audio/mp3, audio/wav" />
+                <label for="audio-file" class="select-audio-button"
+                  >Select Audio</label
+                >
+              </div>
+            </div>
+          </div>  
     </div>
 </body>
 
