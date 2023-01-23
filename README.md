@@ -94,7 +94,9 @@ The .fa-spin class is used to add a spinning animation to the play icon. The .sc
 
 3. JavaScript:
 
-The JavaScript code is responsible for the interactivity and logic of the game. It includes functions such as updateClock(), handleClick(), and event listeners such as audioFile.addEventListener(), playButton.addEventListener(), btnOpenModal.addEventListener(), xCloseModal.addEventListener(), and window.addEventListener(). The `updateClock()
+The JavaScript code is responsible for the interactivity and logic of the game. It includes functions such as updateClock(), handleClick(), and event listeners such as audioFile.addEventListener(), playButton.addEventListener(), btnOpenModal.addEventListener(), xCloseModal.addEventListener(), and window.addEventListener(). The `updateClock() function is used to update the clock on the game's screen, using the built-in Date object to get the current date and time. The handleClick() function is used to handle the user's choice of Rock, Paper, Scissors, Lizard, or Spock and determine the outcome of the game. The event listeners are used to listen for specific actions such as clicking a button or uploading an audio file, and respond with a specific action such as playing audio or opening a modal window.
+
+Overall, the HTML, CSS, and JavaScript code provided work together to create an interactive Rock, Paper, Scissors, Lizard, Spock game that includes a clock, audio player, modal window, and sound switch. The HTML provides the structure, the CSS provides the styling, and the JavaScript provides the interactivity and logic, making for a seamless and engaging user experience. The game also includes additional features such as background sound and a score card, making it a well-rounded and fully-featured game.
 
 The JavaScript code is used to add functionality to the game. The code starts by declaring variables to store references to the audio, play button,audio file, and play icon elements. An event listener is added to the audio file input to handle when a new audio file is selected. When a new file is selected, the audio element's src attribute is set to the URL of the selected file.
 
@@ -205,4 +207,3 @@ Overall, the code provided creates an interactive and visually appealing game th
 ## Sponsors
 
 A massive thank you to our community sponsors!
-# Rock-Paper-Scissors-Lizard-Spock
