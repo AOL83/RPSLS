@@ -67,17 +67,17 @@ There is also a `style-guide.md` file, which contains the information you'll nee
 My code is a combination of HTML, CSS, and JavaScript that creates an interactive Rock, Paper, Scissors, Lizard, Spock game. In my rundown, we will go through each code type, their use, and purpose, and a breakdown of the JavaScript code, including any mathematical logic used, its function, and how it works. follow these steps:
 
 1. HTML:
-The HTML code is responsible for structuring the layout of the game and includes elements such as the <head>, <body>, <div>, <h1>, <h2>, <button>, <aside>, <input>, <label>, <section>, <audio>, and <img>. The <head> element is where the meta information, links to external resources and stylesheets are defined. The <body> element is where the main content of the website is placed. The <div> element is used to group other elements together, and <h1>, <h2>, <button>, <aside>, <input>, <label>, <section>, <audio>, and <img> elements are used to create headings, buttons, forms, and multimedia content.
+The HTML code is responsible for structuring the layout of the game and includes elements such as the head, body, div, h1, h2, button, aside, input, label, section, audio, and img. The head element is where the meta information, links to external resources and stylesheets are defined. The body element is where the main content of the website is placed. The div element is used to group other elements together, and h1, h2, button, aside, input, label, section, audio, and img elements are used to create headings, buttons, forms, and multimedia content.
 
-The HTML code is used to create the structure of the game page. The code starts with the DOCTYPE declaration, which specifies that the document is an HTML5 document. The code then includes a <html> tag, which is the container for all HTML elements. The lang attribute is set to "en" to indicate that the document is in English.
+The HTML code is used to create the structure of the game page. The code starts with the DOCTYPE declaration, which specifies that the document is an HTML5 document. The code then includes a html tag, which is the container for all HTML elements. The lang attribute is set to "en" to indicate that the document is in English.
 
-The code then includes a <head> tag, which contains metadata about the document, such as the title, character encoding, and links to CSS and JavaScript files. The <link> tags are used to link to external CSS and JavaScript files that are used to style and add functionality to the game. The <title> tag specifies the title of the game, which is displayed in the browser's title bar.
+The code then includes a <head> tag, which contains metadata about the document, such as the title, character encoding, and links to CSS and JavaScript files. The link tags are used to link to external CSS and JavaScript files that are used to style and add functionality to the game. The title tag specifies the title of the game, which is displayed in the browser's title bar.
 
-The code then includes a <body> tag, which contains the content of the game. The code includes a <h1> tag, which is used to create a heading for the game. The <div> tags are used to create sections and containers for the game's content. The <img> tag is used to add an image of the game's logo.
+The code then includes a body tag, which contains the content of the game. The code includes a h1 tag, which is used to create a heading for the game. The div tags are used to create sections and containers for the game's content. The img tag is used to add an image of the game's logo.
 
-The code also includes `<button> tags, which are used to create buttons for the game's functionality, such as opening and closing a modal window and playing and pausing audio. The <aside> tag is used to create a container for the background sound switch. The <input> and <label> tags are used to create the switch for turning the background sound on and off.
+The code also includes `button tags, which are used to create buttons for the game's functionality, such as opening and closing a modal window and playing and pausing audio. The <aside> tag is used to create a container for the background sound switch. The input and label tags are used to create the switch for turning the background sound on and off.
 
-The code also includes <section> tags, which are used to create different sections of the game, such as the start page and result page. The <div> tags with the class of "icon" are used to create the icons for the game's choices, such as rock, paper, scissors, lizard, and spock. The data-choice attribute is used to store the value of the choice.
+The code also includes section tags, which are used to create different sections of the game, such as the start page and result page. The <div> tags with the class of "icon" are used to create the icons for the game's choices, such as rock, paper, scissors, lizard, and spock. The data-choice attribute is used to store the value of the choice.
 
 2. CSS:
 
@@ -199,7 +199,7 @@ The sixth section of the code creates sounds for the game, these include backgro
 
 The seventh and final section of the code handles the logic of the game. When the user clicks on a move on the start page, the game generates a random move for the computer, compares the two moves, and displays the outcome on the result page. The game also updates the scorecard and plays the appropriate sound based on the outcome. The game allows the user to play again by clicking on the "play again" button.
 
-Overall, the code provided creates an interactive and visually appealing game that combines HTML, CSS, and JavaScript to create an enjoyable experience for the user. The game includes various interactive elements such as an audio player, a clock, and a modal that adds to the overall user experience.Y
+Overall, the code provided creates an interactive and visually appealing game that combines HTML, CSS, and JavaScript to create an enjoyable experience for the user. The game includes various interactive elements such as an audio player, a clock, and a modal that adds to the overall user experience.
 
 **Have fun playing!** 🚀
 
