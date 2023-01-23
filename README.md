@@ -1,10 +1,10 @@
 [See my solution here in GitHub](https://github.com/AOL83/Rock-Paper-Scissors-Lizard-Spock/)
 
-# Frontend Mentor - Rock, Paper, Scissors
+# Second Module - Rock, Paper, Scissors, Lizard, spock.
 
 ![Design preview for the Rock, Paper, Scissors coding challenge](./design/desktop-preview.jpg)
 
-## Welcome! 👋
+## Welcome! 😁
 
 Thanks for checking out my attempt at the Code Institutes second Module challenge / Rock - Papper - scissors - Lizard- Spock. / help from the front-end coding challenge.
 
