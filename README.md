@@ -6,7 +6,7 @@
 
 ## Welcome! 👋
 
-Thanks for checking out my front-end coding challenge.
+Thanks for checking out my attempt at the Code Institutes second Module challenge / Rock - Papper - scissors - Lizard- Spock. / help from the front-end coding challenge.
 
 [Frontend Mentor](https://www.frontendmentor.io) challenges allow you to improve your skills in a real-life workflow.
 
@@ -50,98 +50,130 @@ Not sure what Rock, Paper, Scissors, Lizard, Spock is? [Check out this clip from
 
 Want some support on the challenge? [Join our Slack community](https://www.frontendmentor.io/slack) and ask questions in the **#help** channel.
 
-## Where to find everything
 
-Your task is to build out the project to the designs inside the `/design` folder. You can either choose the `original` designs for the simpler version or the `bonus` designs for the harder version. You will find both mobile and desktop versions of the design to work to. Each file is also named depending on which step in the game the design is for.
-
-The designs are in JPG static format. This will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`. This should help train your eye to perceive differences in spacings and sizes.
-
-If you would like the Sketch file in order to inspect the design in more detail it is available to [purchase here](https://bmc.xyz/l/CYkacn7bV).
-
-You will find all the required assets in the `/images` folder. The assets are already optimized.
-
-There is also a `style-guide.md` file, which contains the information you'll need, such as color palette and fonts.
-
-## Building your project
+## Building my project
 
 My code is a combination of HTML, CSS, and JavaScript that creates an interactive Rock, Paper, Scissors, Lizard, Spock game. In my rundown, we will go through each code type, their use, and purpose, and a breakdown of the JavaScript code, including any mathematical logic used, its function, and how it works. follow these steps:
 
 1. HTML:
 The HTML code is responsible for structuring the layout of the game and includes elements such as the head, body, div, h1, h2, button, aside, input, label, section, audio, and img. The head element is where the meta information, links to external resources and stylesheets are defined. The body element is where the main content of the website is placed. The div element is used to group other elements together, and h1, h2, button, aside, input, label, section, audio, and img elements are used to create headings, buttons, forms, and multimedia content.
 
-The HTML code is used to create the structure of the game page. The code starts with the DOCTYPE declaration, which specifies that the document is an HTML5 document. The code then includes a html tag, which is the container for all HTML elements. The lang attribute is set to "en" to indicate that the document is in English.
+The HTML code is used to create the structure of the game page.
+The code starts with the DOCTYPE declaration, which specifies that the document is an HTML5 document.
+The code then includes a html tag, which is the container for all HTML elements. The lang attribute is set to "en" to indicate that the document is in English.
 
-The code then includes a <head> tag, which contains metadata about the document, such as the title, character encoding, and links to CSS and JavaScript files. The link tags are used to link to external CSS and JavaScript files that are used to style and add functionality to the game. The title tag specifies the title of the game, which is displayed in the browser's title bar.
+The code then includes a <head> tag, which contains metadata about the document, such as the title, character encoding, and links to CSS and JavaScript files.
+The link tags are used to link to external CSS and JavaScript files that are used to style and add functionality to the game.
+The title tag specifies the title of the game, which is displayed in the browser's title bar.
 
 The code then includes a body tag, which contains the content of the game. The code includes a h1 tag, which is used to create a heading for the game. The div tags are used to create sections and containers for the game's content. The img tag is used to add an image of the game's logo.
 
-The code also includes `button tags, which are used to create buttons for the game's functionality, such as opening and closing a modal window and playing and pausing audio. The <aside> tag is used to create a container for the background sound switch. The input and label tags are used to create the switch for turning the background sound on and off.
+The code also includes `button tags, which are used to create buttons for the game's functionality, such as opening and closing a modal window and playing and pausing audio.
+The <aside> tag is used to create a container for the background sound switch.
+The input and label tags are used to create the switch for turning the background sound on and off.
 
-The code also includes section tags, which are used to create different sections of the game, such as the start page and result page. The <div> tags with the class of "icon" are used to create the icons for the game's choices, such as rock, paper, scissors, lizard, and spock. The data-choice attribute is used to store the value of the choice.
+The code also includes section tags, which are used to create different sections of the game, such as the start page and result page.
+The <div> tags with the class of "icon" are used to create the icons for the game's choices, such as rock, paper, scissors, lizard, and spock.
+The data-choice attribute is used to store the value of the choice.
 
 2. CSS:
 
 The CSS code is responsible for the styling of the game. It includes properties such as background-color, background-image, background-position, background-repeat, background-size, margin, padding, border, border-radius, text-align, color, font-size, font-weight, display, flex, and transition. These properties are used to set the layout and design of the game, such as the background color and image, the font, and the size and shape of various elements.
 
-The CSS code is used to style the game page. The code starts by selecting the html element and setting the font-size, box-sizing, height, background-color, background-image, background-position, background-repeat, and background-size properties. The code then uses the \* selector to set the box-sizing property to inherit for all elements.
+The CSS code is used to style the game page.
+The code starts by selecting the html element and setting the font-size, box-sizing, height, background-color, background-image, background-position, background-repeat, and background-size properties.
+The code then uses the \* selector to set the box-sizing property to inherit for all elements.
 
-The code then selects the body element and sets the margin, font, and focus properties. The .header class is used to style the header container of the game. The .clock class is used to style the clock that displays the date and time. The .box class is used to style the container for the audio player.
+The code then selects the body element and sets the margin, font, and focus properties.
+The .header class is used to style the header container of the game. The .clock class is used to style the clock that displays the date and time.
+The .box class is used to style the container for the audio player.
 
-The .audio-player class is used to style the audio player container. The .circle-button class is used to style the play button, and the .playing class is used to change the color of the button to green when the audio is playing. The .audio-controls class is used to style the audio control buttons. The .select-audio-button class is used to style the button for selecting audio files.
+The .audio-player class is used to style the audio player container.
+The .circle-button class is used to style the play button, and the .playing class is used to change the color of the button to green when the audio is playing.
+The .audio-controls class is used to style the audio control buttons.
+The .select-audio-button class is used to style the button for selecting audio files.
 
-The .fa-spin class is used to add a spinning animation to the play icon. The .score class is used to style the score card. The #modal id is used to style the modal window. The .sound-switch class is used to style the background sound switch.
+The .fa-spin class is used to add a spinning animation to the play icon.
+The .score class is used to style the score card.
+The #modal id is used to style the modal window.
+The .sound-switch class is used to style the background sound switch.
 
 3. JavaScript:
 
-The JavaScript code is responsible for the interactivity and logic of the game. It includes functions such as updateClock(), handleClick(), and event listeners such as audioFile.addEventListener(), playButton.addEventListener(), btnOpenModal.addEventListener(), xCloseModal.addEventListener(), and window.addEventListener(). The `updateClock() function is used to update the clock on the game's screen, using the built-in Date object to get the current date and time. The handleClick() function is used to handle the user's choice of Rock, Paper, Scissors, Lizard, or Spock and determine the outcome of the game. The event listeners are used to listen for specific actions such as clicking a button or uploading an audio file, and respond with a specific action such as playing audio or opening a modal window.
+The JavaScript code is responsible for the interactivity and logic of the game. It includes functions such as updateClock(), handleClick(), and event listeners such as audioFile.addEventListener(), playButton.addEventListener(), btnOpenModal.addEventListener(), xCloseModal.addEventListener(), and window.addEventListener().
+The `updateClock() function is used to update the clock on the game's screen, using the built-in Date object to get the current date and time.
+The handleClick() function is used to handle the user's choice of Rock, Paper, Scissors, Lizard, or Spock and determine the outcome of the game.
+The event listeners are used to listen for specific actions such as clicking a button or uploading an audio file, and respond with a specific action such as playing audio or opening a modal window.
 
-Overall, the HTML, CSS, and JavaScript code provided work together to create an interactive Rock, Paper, Scissors, Lizard, Spock game that includes a clock, audio player, modal window, and sound switch. The HTML provides the structure, the CSS provides the styling, and the JavaScript provides the interactivity and logic, making for a seamless and engaging user experience. The game also includes additional features such as background sound and a score card, making it a well-rounded and fully-featured game.
+Overall, the HTML, CSS, and JavaScript code work together to create an interactive Rock, Paper, Scissors, Lizard, Spock game that includes a clock, audio player, modal window, and sound switch.
+The HTML provides the structure, the CSS provides the styling, and the JavaScript provides the interactivity and logic, making for a seamless and engaging user experience.
+The game also includes additional features such as background sound and a score card, making it a well-rounded and fully-featured game.
 
-The JavaScript code is used to add functionality to the game. The code starts by declaring variables to store references to the audio, play button,audio file, and play icon elements. An event listener is added to the audio file input to handle when a new audio file is selected. When a new file is selected, the audio element's src attribute is set to the URL of the selected file.
+The JavaScript code is used to add functionality to the game.
+The code starts by declaring variables to store references to the audio, play button,audio file, and play icon elements.
+An event listener is added to the audio file input to handle when a new audio file is selected.
+When a new file is selected, the audio element's src attribute is set to the URL of the selected file.
 
-When the play button is clicked, an event listener is triggered that checks the current state of the audio element (paused or playing). If the audio is paused, the play() method is called on the audio element, the "playing" class is added to the play button, and the "fa-spin" class is added to the play icon to show that the audio is playing. If the audio is already playing, the pause() method is called on the audio element, the "playing" class is removed from the play button, and the "fa-spin" class is removed from the play icon to show that the audio is paused.
+When the play button is clicked, an event listener is triggered that checks the current state of the audio element (paused or playing).
+If the audio is paused, the play() method is called on the audio element, the "playing" class is added to the play button, and the "fa-spin" class is added to the play icon to show that the audio is playing.
+If the audio is already playing, the pause() method is called on the audio element, the "playing" class is removed from the play button, and the "fa-spin" class is removed from the play icon to show that the audio is paused.
 
-The code also includes a function for updating the clock that displays the current date and time. This function uses the setInterval() method to call the function every second. The code also includes an event listener for the "openModal" button that toggles the modal window's visibility.
+The code also includes a function for updating the clock that displays the current date and time.
+This function uses the setInterval() method to call the function every second.
+The code also includes an event listener for the "openModal" button that toggles the modal window's visibility.
 
-For the game play, the code uses the Math.floor() and Math.random() method to generate a random number between 0 and 4. This number is then used as an index to select a choice for the computer player. The code also includes event listeners for each choice icon that handles the user's choice and compares it to the computer's choice to determine the winner. The code uses the dataset property to access the value of the data-choice attribute for each choice icon, which represents the user's choice.
+For the game play, the code uses the Math.floor() and Math.random() method to generate a random number between 0 and 4.
+This number is then used as an index to select a choice for the computer player. The code also includes event listeners for each choice icon that handles the user's choice and compares it to the computer's choice to determine the winner.
+The code uses the dataset property to access the value of the data-choice attribute for each choice icon, which represents the user's choice.
 
-The code also uses CSS to style the page and elements. The html element has a number of CSS styles applied to it including font-size, background-color, background-image, and background-size. The .header class is used to style the header element, and the .clock class is used to style the clock element. The .box class is used to style the container for the audio player, and the .audio-player class is used to style the audio player itself. The .circle-button class is used to style the play button, and the .audio-controls class is used to style the audio controls.
+The code also uses CSS to style the page and elements.
+The html element has a number of CSS styles applied to it including font-size, background-color, background-image, and background-size.
+The .header class is used to style the header element, and the .clock class is used to style the clock element.
+The .box class is used to style the container for the audio player, and the .audio-player class is used to style the audio player itself. The .circle-button class is used to style the play button, and the .audio-controls class is used to style the audio controls.
 
-Overall, this code provides a functioning rock-paper-scissors-lizard-spock game with an audio player and clock feature as well as a modal window for displaying rules. The HTML and CSS code provides the structure and layout for the page, and the JavaScript code provides the functionality for the game, audio player, clock, and modal window. The use of CSS classes and the dataset property in the JavaScript code allows for easy modification and customization of the game. Additionally, the use of mathematical methods such as Math.floor() and Math.random() allows for random selection of the computer player's choice. The JavaScript code provided in this essay is used to create an interactive Rock, Paper, Scissors, Lizard, Spock game. The code uses JavaScript to handle user interactions, update the game state and display the results.
+Overall, this code provides a functioning rock-paper-scissors-lizard-spock game with an audio player and clock feature as well as a modal window for displaying rules. The HTML and CSS code provides the structure and layout for the page, and the JavaScript code provides the functionality for the game, audio player, clock, and modal window.
+The use of CSS classes and the dataset property in the JavaScript code allows for easy modification and customization of the game. Additionally, the use of mathematical methods such as Math.floor() and Math.random() allows for random selection of the computer player's choice.
+The JavaScript code provided in this essay is used to create an interactive Rock, Paper, Scissors, Lizard, Spock game.
+The code uses JavaScript to handle user interactions, update the game state and display the results.
 
-The first section of JavaScript code is for the audio player. It uses the getElementById() method to select the audio element, play button, and audio file input element. The addEventListener() method is used to listen for a change in the audio file input element, and when a change is detected, the src property of the audio element is set to the selected file using the URL.createObjectURL() method. The play button is also given a click event using the addEventListener() method, which will toggle the play and pause functionality of the audio element. The code also handles the ended event on the audio element, which will remove the playing class and the fa-spin class on the play button.
+The first section of JavaScript code is for the audio player.
+It uses the getElementById() method to select the audio element, play button, and audio file input element.
+The addEventListener() method is used to listen for a change in the audio file input element, and when a change is detected, the src property of the audio element is set to the selected file using the URL.createObjectURL() method.
+The play button is also given a click event using the addEventListener() method, which will toggle the play and pause functionality of the audio element.
+The code also handles the ended event on the audio element, which will remove the playing class and the fa-spin class on the play button.
 
-The next section of JavaScript code is for the clock. It uses the setInterval() method to call the updateClock() function every second. The updateClock() function uses the Date() object to get the current date and time and then sets the innerHTML of the date and time elements to the current date and time.
+The next section of JavaScript code is for the clock.
+It uses the setInterval() method to call the updateClock() function every second.
+The updateClock() function uses the Date() object to get the current date and time and then sets the innerHTML of the date and time elements to the current date and time.
 
-The next section of JavaScript code is for the modal window. It uses the querySelector() method to select the modal, modal content, open modal button, and close modal button. The addEventListener() method is used to listen for a click event on the open modal button, which will display the modal window, and the close modal button, which will hide the modal window. The code also uses an event listener on the window to check if the click event was on the modal and if so, it will hide the modal window.
+The next section of JavaScript code is for the modal window.
+It uses the querySelector() method to select the modal, modal content, open modal button, and close modal button.
+The addEventListener() method is used to listen for a click event on the open modal button, which will display the modal window, and the close modal button, which will hide the modal window.
+The code also uses an event listener on the window to check if the click event was on the modal and if so, it will hide the modal window.
 
-The next section of JavaScript code is for the game. It uses the querySelector() and querySelectorAll() methods to select the game elements and variables used in the game. The code uses an event listener on the game elements to listen for a click event, which will call the handleClick() function. The handleClick() function
+The next section of JavaScript code is for the game.
+It uses the querySelector() and querySelectorAll() methods to select the game elements and variables used in the game.
+The code uses an event listener on the game elements to listen for a click event, which will call the handleClick() function.
+The handleClick() function
 
-The handleClick() function is responsible for handling the game logic. It starts by playing the audio for the user's choice and toggling the result class on the body. It then removes any existing classes on the user and house icons, hides the play again button and message, and sets the display of the house icon to none.
+The handleClick() function is responsible for handling the game logic.
+It starts by playing the audio for the user's choice and toggling the result class on the body.
+It then removes any existing classes on the user and house icons, hides the play again button and message, and sets the display of the house icon to none.
 
-The function then uses the dataset property of the clicked element to get the user's choice, and generates a random number between 0 and 4 to select the house's choice. It then sets the display of the start page to none and the display of the result page to block.
+The function then uses the dataset property of the clicked element to get the user's choice, and generates a random number between 0 and 4 to select the house's choice.
+It then sets the display of the start page to none and the display of the result page to block.
 
 The function then checks the user's choice against the house's choice using a series of if-else statements. Depending on the outcome of the game, it will update the score, change the message, play the appropriate audio, and show the house's choice icon.
 
-The final section of JavaScript code is for the sound switch. It uses the querySelector() method to select the checkbox and label elements. The code uses an event listener on the checkbox to listen for a change event, which will toggle the muted property on the background sound element.
+The final section of JavaScript code is for the sound switch.
+It uses the querySelector() method to select the checkbox and label elements.
+The code uses an event listener on the checkbox to listen for a change event, which will toggle the muted property on the background sound element.
 
-Overall, the HTML, CSS, and JavaScript code provided work together to create an interactive Rock, Paper, Scissors, Lizard, Spock game that includes a clock, audio player, modal window, and sound switch. The JavaScript code uses methods such as getElementById(), addEventListener(), `query.
+Overall, the HTML, CSS, and JavaScript work together to create an interactive Rock, Paper, Scissors, Lizard, Spock game that includes a clock, audio player, modal window, and sound switch. The JavaScript code uses methods such as getElementById(), addEventListener(), `query.
 
 ## Deploying your project
 
-As mentioned above, there are a number of ways to host your project for free. We recommend using [Vercel](https://bit.ly/fem-vercel) as it's an amazing service and extremely simple to get set up with. If you'd like to use Vercel, here are some steps to follow to get started:
 
-1. [Sign up to Vercel](https://bit.ly/fem-vercel-signup) and go through the onboarding flow, ensuring your GitHub account is connected by using their [Vercel for GitHub](https://vercel.com/docs/v2/git-integrations/vercel-for-github) integration.
-2. Connect your project to Vercel from the ["Import project" page](https://vercel.com/import), using the "From Git Repository" button and selecting the project you want to deploy.
-3. Once connected, every time you `git push`, Vercel will create a new [deployment](https://vercel.com/docs/v2/platform/deployments) and the deployment URL will be shown on your [Dashboard](https://vercel.com/dashboard). You will also receive an email for each deployment with the URL.
-
-## Sharing your solution
-
-There are multiple places you can share your solution:
-
-1. Submit it on the platform so that other users will see your solution on the site. Here's our ["Complete guide to submitting solutions"](https://medium.com/frontend-mentor/a-complete-guide-to-submitting-solutions-on-frontend-mentor-ac6384162248) to help you do that.
-2. Share your solution page in the **#finished-projects** channel of the [Slack community](https://www.frontendmentor.io/slack).
-3. Tweet [@frontendmentor](https://twitter.com/frontendmentor) and mention **@frontendmentor** including the repo and live URLs in the tweet. We'd love to take a look at what you've built and help share it around.
 
 ## Giving feedback on my project
 
