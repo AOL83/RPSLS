@@ -67,7 +67,6 @@ There is also a `style-guide.md` file, which contains the information you'll nee
 My code is a combination of HTML, CSS, and JavaScript that creates an interactive Rock, Paper, Scissors, Lizard, Spock game. In my rundown, we will go through each code type, their use, and purpose, and a breakdown of the JavaScript code, including any mathematical logic used, its function, and how it works. follow these steps:
 
 1. HTML:
-
 The HTML code is responsible for structuring the layout of the game and includes elements such as the <head>, <body>, <div>, <h1>, <h2>, <button>, <aside>, <input>, <label>, <section>, <audio>, and <img>. The <head> element is where the meta information, links to external resources and stylesheets are defined. The <body> element is where the main content of the website is placed. The <div> element is used to group other elements together, and <h1>, <h2>, <button>, <aside>, <input>, <label>, <section>, <audio>, and <img> elements are used to create headings, buttons, forms, and multimedia content.
 
 The HTML code is used to create the structure of the game page. The code starts with the DOCTYPE declaration, which specifies that the document is an HTML5 document. The code then includes a <html> tag, which is the container for all HTML elements. The lang attribute is set to "en" to indicate that the document is in English.
