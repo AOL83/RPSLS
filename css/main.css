@@ -251,22 +251,57 @@ body h1, section h2 {
 }
 
 .scissors {
-    
+    top: 0;
+    left: calc(50% - 6.5rem);
+    background-image: url(../images/icon-scissors.svg);
+    border-color: hsl(40, 84%, 53%);
+    box-shadow: 0 6px 0 0 hsl(40, 94%, 40%), inset 0 6px 3px 0 hsl(240, 1%, 63%); 
 }
 
 .spock {
-
+    top: 11rem;
+  left: calc(50% - 21rem);
+  background-image: url(../images/icon-spock.svg);
+  border-color: hsl(189, 58%, 57%);
+  box-shadow: 0 6px 0 0 hsl(189, 68%, 44%), inset 0 6px 3px 0 hsl(240, 1%, 63%);
 }
 
 .paper {
-    
+    top: 11rem;
+    right: calc(50% - 21rem);
+    background-image: url(../images/icon-paper.svg);
+    border-color: hsl(231, 91%, 66%);
+    box-shadow: 0 6px 0 0 hsl(231, 94%, 42%), inset 0 6px 3px 0 hsl(240, 1%, 63%);  
 }
 
 .lizard {
-    
+    top: 29rem;
+    left: calc(50% - 15rem);
+    background-image: url(../images/icon-lizard.svg);
+    border-color: hsl(261, 63%, 63%);
+    box-shadow: 0 6px 0 0 hsl(261, 67%, 42%), inset 0 6px 3px 0 hsl(240, 1%, 63%);  
 }
 
 .rock {
-    
+    top: 29rem;
+    right: calc(50% - 15rem);
+    background-image: url(../images/icon-rock.svg);
+    border-color: hsl(350, 68%, 56%);
+    box-shadow: 0 6px 0 0 hsl(350, 94%, 32%), inset 0 6px 3px 0 hsl(240, 1%, 63%);  
 }
 
+
+#openModal {
+    font-family: "Barlow Semi Condensed", sans-serif;
+    background: transparent;
+    border: 1px solid hsl(217, 16%, 45%);
+    border-radius: 6px;
+    color: hsl(0, 0%, 100%);
+    display: block;
+    width: 11rem;
+    margin: 8px auto;
+    padding: 1rem 0;
+    font-weight: 700;
+    cursor: pointer;
+    transition: ease-out 300ms;
+}
