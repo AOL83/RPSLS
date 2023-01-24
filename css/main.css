@@ -80,3 +80,11 @@ body {
     background-color: chartreuse;
     color: #fff;
 }
+
+.circle-button,.audio-player audio,.audio-controls {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
