@@ -221,3 +221,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover 6rem;
 }
+
+body h1, section h2 {
+    display: none;
+}
