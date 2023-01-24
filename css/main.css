@@ -120,3 +120,12 @@ body {
         transform: rotate(359deg);
     }
 }
+
+.score {
+    width: 12rem;
+    text-align: center;
+    line-height: 4.5rem;
+    background: hsl(0, 0%, 100%);
+    color: hsl(240, 3%, 7%);
+    border-radius: 8px;
+}
