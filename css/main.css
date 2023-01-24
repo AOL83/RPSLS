@@ -20,5 +20,5 @@ body {
 }
 
 :focus {
-    outline: 3px double hsl(0, 100%, 50%);
+    outline: 3px double hsl(185, 100%, 50%);
 }
