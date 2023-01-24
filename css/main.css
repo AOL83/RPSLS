@@ -210,3 +210,14 @@ body {
 #switch:checked + label:after {
     transform: translateX(3rem);
 }
+
+.main {
+    position: relative;
+    width: 100%;
+    max-width: 42rem;
+    margin: 0;
+    height: 50rem;
+    background-image: url(../images/bg-pentagon.svg);
+    background-repeat: no-repeat;
+    background-size: cover 6rem;
+}
