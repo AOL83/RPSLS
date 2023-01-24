@@ -187,3 +187,10 @@ body {
     bottom: 1px;
     content: "";
 }
+
+#switch + label::before {
+    right: 1px;
+    background-color: hsl(0, 100%, 51%);
+    border-radius: 3rem;
+    transition: background 0.4s;
+}
