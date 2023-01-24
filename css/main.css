@@ -4,5 +4,5 @@ html {
     height: 100%;
     background-color: hsl(237, 49%, 15%);
     background-image: radial-gradient(rgba(0,0,0,0,.903), hsl(237,49%,15%));
-    background: linear-gradient(rgba(0,0,0,0.903), rgba(0,0,0));
+    background: linear-gradient(rgba(0,0,0,0.903), rgba(0,0,0)) url("https://media.tenor.com/W_xGobvUy6sAAAAC/photo-of-nerd-emoji-emote.gif");
 }
