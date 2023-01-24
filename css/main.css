@@ -22,3 +22,7 @@ body {
 :focus {
     outline: 3px double hsl(185, 100%, 50%);
 }
+
+.header {
+    
+}
