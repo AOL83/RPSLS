@@ -132,3 +132,9 @@ body {
 .score > span {
     display: block;
 }
+
+.score > span:first-child {
+    color: hsl(230, 23%, 10%);
+    font-size: 1.6rem;
+    text-transform: uppercase;
+}
