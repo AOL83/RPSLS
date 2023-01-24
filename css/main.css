@@ -231,3 +231,42 @@ body h1, section h2 {
     height: 34rem;
     background-image: none;
 }
+.icon {
+    cursor: pointer;
+    width: 12rem;
+    height: ;
+    position: absolute;
+    border: 14px solid;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: hsl(0, 10%, 100%);
+    transition: 0.8s;
+}
+
+.icon:hover {
+    transform: scale(1.1);
+    transition: ease-in 300ms;
+    opacity: 0.85;
+}
+
+.scissors {
+    
+}
+
+.spock {
+
+}
+
+.paper {
+    
+}
+
+.lizard {
+    
+}
+
+.rock {
+    
+}
+
