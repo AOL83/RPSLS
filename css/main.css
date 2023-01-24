@@ -305,3 +305,9 @@ body h1, section h2 {
     cursor: pointer;
     transition: ease-out 300ms;
 }
+
+.result #openModal {
+    top: 30rem;
+    right: 0rem;
+    left: auto;
+}
