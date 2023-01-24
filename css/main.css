@@ -75,3 +75,8 @@ body {
     cursor: pointer;
     margin-top: 50px;
 }
+
+.circle-button.playing {
+    background-color: chartreuse;
+    color: #fff;
+}
