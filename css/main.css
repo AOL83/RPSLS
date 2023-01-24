@@ -13,3 +13,12 @@ html {
 * {
     box-sizing: inherit;
 }
+
+body {
+    margin: 4rem 0;
+    font: 600 1rem "", Sans-serif;
+}
+
+:focus {
+    outline: 3px double hsl(0, 100%, 50%);
+}
