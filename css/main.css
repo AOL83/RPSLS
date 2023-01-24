@@ -171,3 +171,19 @@ body {
     user-select: none;
 }
 
+#switch + label {
+    padding: 2px;
+    width: 6rem;
+    height: 3rem;
+    background-color: hsl(120, 2%, 81%);
+    border-radius: 3rem;
+}
+
+#switch + label::before, #switch + label::after {
+    display: block;
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    bottom: 1px;
+    content: "";
+}
