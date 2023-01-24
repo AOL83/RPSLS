@@ -88,3 +88,8 @@ body {
     transform: translate(-50%, -50%);
 }
 
+/* Adjust if needed */
+
+.audio-controls {
+    top: 50%; 
+}
