@@ -194,3 +194,11 @@ body {
     border-radius: 3rem;
     transition: background 0.4s;
 }
+
+#switch + label::after {
+    width: 3rem;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 100%;
+    box-shadow: 0 2px 5px hsl(0, 0%, 0%);
+    transition: all 0.4s;
+}
