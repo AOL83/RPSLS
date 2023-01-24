@@ -54,3 +54,9 @@ body {
     padding: 8rem;
     margin: 2rem;
 }
+
+.audio-player {
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
