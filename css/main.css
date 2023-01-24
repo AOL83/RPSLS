@@ -9,3 +9,7 @@ html {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+* {
+    box-sizing: inherit;
+}
