@@ -93,3 +93,12 @@ body {
 .audio-controls {
     top: 50%; 
 }
+
+.select-audio-button {
+    background-color: #fff;
+    color: #000;
+    padding-left: 8px 20px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
