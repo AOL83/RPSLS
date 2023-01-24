@@ -30,4 +30,5 @@ body {
    margin: 0 auto;
    justify-content: space-between;
    padding: 1.5rem 3rem;
+   border: 2px solid hsla(217, 16%, 45%, 0);
 }
