@@ -143,3 +143,8 @@ body {
     font-size: 6rem;
     font-weight: 700;
 }
+
+.sound-switch {
+    margin: 10px auto;
+    width: 6rem;
+}
