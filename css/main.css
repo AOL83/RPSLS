@@ -225,3 +225,9 @@ body {
 body h1, section h2 {
     display: none;
 }
+
+.result .main {
+    max-width: 96rem;
+    height: 34rem;
+    background-image: none;
+}
