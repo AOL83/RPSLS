@@ -162,3 +162,12 @@ body {
     font-size: 1.4rem;
     margin: 0;
 }
+
+#switch + label {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    outline: none;
+    user-select: none;
+}
+
