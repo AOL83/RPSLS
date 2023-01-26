@@ -5,17 +5,18 @@ html {
   background-color: hsl(237, 49%, 15%);
   background-image: radial-gradient(hsl(214, 43%, 35%), hsl(237, 49%, 15%));
   background: linear-gradient(rgba(0, 0, 0, 0.903), rgba(0, 0, 0, 0)),
-    url("https://media.tenor.com/W_xGobvUy6sAAAAC/photo-of-nerd-emoji-emote.gif");
+    url("https://media0.giphy.com/media/jxTup30VvkvFyKuwtd/giphy.gif?cid=ecf05e47866xk3z2hcw2zst31wu9t0cbgggx2qsxjbfsdc9w&rid=giphy.gif&ct=g");
   background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-repeat: repeat;
+  background-size: contain;
 }
 
 * {
   box-sizing: inherit;
+  
 }
 body {
-  margin: 4rem 0;
+  margin: 0rem 0;
   font: 600 1rem "Barlow Semi Condensed", Sans-serif;
 }
 :focus {
