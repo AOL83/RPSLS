@@ -238,4 +238,4 @@ Overall, the code provided creates an interactive and visually appealing game th
 
 ## Sponsors
 
-A massive thank you to our community sponsors!
+A massive thank you to the slack community!
