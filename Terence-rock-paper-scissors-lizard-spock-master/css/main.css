@@ -20,7 +20,7 @@ body {
   font: 600 1rem "Barlow Semi Condensed", Sans-serif;
 }
 :focus {
-  outline: 3px dotted hsl(0, 100%, 50%);
+  outline: 3px solid hsl(198, 98%, 53%);
 }
 .header {
   display: flex;
@@ -50,6 +50,7 @@ body {
 }
 
 /* End of radio clock */
+
 /* ---Audio player----- */
 .box {
   padding-bottom: 8rem;
@@ -379,10 +380,10 @@ section h2 {
   top: 20rem;
   left: calc(50% - 10rem);
   font: 2rem "Barlow Semi Condensed", sans-serif;
-  background: hsl(0, 0%, 100%);
+  background: hsl(196, 99%, 51%);
   border: 1px solid hsl(217, 16%, 45%);
   border-radius: 6px;
-  color: hsl(229, 25%, 31%);
+  color: hsl(0, 0%, 100%);
   padding: 1rem 0;
   font-weight: 700;
   cursor: pointer;
