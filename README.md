@@ -6,7 +6,7 @@
 
 ## Welcome! 😁
 
-Thanks for checking out my attempt at the Code Institutes second Module challenge / Rock - Papper - scissors - Lizard- Spock. / help from the front-end coding challenge.
+Thanks for checking out my attempt at the Code Institutes second Module challenge / Rock - Paper - scissors - Lizard- Spock. / help from the front-end coding challenge.
 
 [Frontend Mentor](https://www.frontendmentor.io) challenges allow you to improve your skills in a real-life workflow.
 
@@ -46,6 +46,7 @@ If the player wins, they gain 1 point. If the computer wins, the player loses on
 - Lizard beats Paper
 - Spock beats Rock
 
+https://ic.c4assets.com/brands/the-big-bang-theory/49a26338-6aaa-42a5-9af5-78f1b1149daf.jpg?interpolation=progressive-bicubic&output-format=jpeg&output-quality=90{&resize}
 Not sure what Rock, Paper, Scissors, Lizard, Spock is? [Check out this clip from The Big Bang Theory](https://www.youtube.com/watch?v=iSHPVCBsnLw).
 
 Want some support on the challenge? [Join our Slack community](https://www.frontendmentor.io/slack) and ask questions in the **#help** channel.
