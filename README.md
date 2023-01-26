@@ -46,7 +46,7 @@ If the player wins, they gain 1 point. If the computer wins, the player loses on
 - Lizard beats Paper
 - Spock beats Rock
 
-https://ic.c4assets.com/brands/the-big-bang-theory/49a26338-6aaa-42a5-9af5-78f1b1149daf.jpg?interpolation=progressive-bicubic&output-format=jpeg&output-quality=90{&resize}
+![](images/filenames%20spaces.png)
 Not sure what Rock, Paper, Scissors, Lizard, Spock is? [Check out this clip from The Big Bang Theory](https://www.youtube.com/watch?v=iSHPVCBsnLw).
 
 Want some support on the challenge? [Join our Slack community](https://www.frontendmentor.io/slack) and ask questions in the **#help** channel.
