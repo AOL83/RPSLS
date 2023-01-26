@@ -50,7 +50,6 @@ Not sure what Rock, Paper, Scissors, Lizard, Spock is? [Check out this clip from
 
 Want some support on the challenge? [Join our Slack community](https://www.frontendmentor.io/slack) and ask questions in the **#help** channel.
 
-
 ## Building my project
 
 My code is a combination of HTML, CSS, and JavaScript that creates an interactive Rock, Paper, Scissors, Lizard, Spock game. In my rundown, we will go through each code type, their use, and purpose, and a breakdown of the JavaScript code, including any mathematical logic used, its function, and how it works. follow these steps:
@@ -174,8 +173,6 @@ Overall, the HTML, CSS, and JavaScript work together to create an interactive Ro
 
 ## Deploying your project
 
-
-
 ## Giving feedback on my project
 
 Feedback is always welcome, "So" here is mine, Im going to start with my index.html page but my hole web project is written in a combination of HTML, CSS and JavaScript. The page is a game of Rock, Paper, Scissors, Lizard, Spock, from the famous U.S series the big bang theory which at hart is an extension of the traditional game of Rock, Paper, Scissors.
@@ -236,6 +233,8 @@ The seventh and final section of the code handles the logic of the game. When th
 Overall, the code provided creates an interactive and visually appealing game that combines HTML, CSS, and JavaScript to create an enjoyable experience for the user. The game includes various interactive elements such as an audio player, a clock, and a modal that adds to the overall user experience.
 
 **Have fun playing!** 🚀
+
+[See my game here in GitHub](https://5555-aol83-rockpaperscissor-5x6gk5azwx5.ws-eu84.gitpod.io/Terence-rock-paper-scissors-lizard-spock-master/index.html)
 
 ## Sponsors
 
