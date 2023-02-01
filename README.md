@@ -1,4 +1,5 @@
 [See my solution here in GitHub](https://github.com/AOL83/Rock-Paper-Scissors-Lizard-Spock/)
+[See my solution here on Frontendmentoe](https://www.frontendmentor.io/solutions/html-css-js-responsive-layout-using-grid-flexbox-and-flex-wrap-2ALwzCaxWE)
 
 # Second Module - Rock, Paper, Scissors, Lizard, spock.
 
@@ -44,7 +45,10 @@ If the player wins, they gain 1 point. If the computer wins, the player loses on
 - Lizard beats Paper
 - Spock beats Rock
 
+
 Not sure what Rock, Paper, Scissors, Lizard, Spock is? [Check out this clip from The Big Bang Theory](https://www.youtube.com/watch?v=iSHPVCBsnLw).
+
+![BIGbang pic!](https://images-na.ssl-images-amazon.com/images/S/pv-target-images/27dad4f1f79ea44b96fc726ddef21d04294c1b1654e06d6126c256f4db76054c._RI_V_TTW_.jpg)
 
 Want some support on the challenge? [Join our Slack community](https://www.frontendmentor.io/slack) and ask questions in the **#help** channel.
 
@@ -183,8 +187,9 @@ The seventh and final section of the code handles the logic of the game. When th
 
 Overall, the code provided creates an interactive and visually appealing game that combines HTML, CSS, and JavaScript to create an enjoyable experience for the user. The game includes various interactive elements such as an audio player, a clock, and a modal that adds to the overall user experience.
 
-**Have fun playing my version of the game link below!** 🚀
+**Have fun playing my live version of the game link below!** 🚀
 [See my game live here in GitHub pages](https://aol83.github.io/)
+will not require password yet
 
 ## Acknowledgement
 
