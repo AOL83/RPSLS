@@ -189,7 +189,7 @@ Overall, the code provided creates an interactive and visually appealing game th
 
 **Have fun playing my live version of the game link below!** 🚀
 [See my game live here in GitHub pages](https://aol83.github.io/)
-will not require password yet
+will not require password of (helloworld) \yet
 
 ## Acknowledgement
 
