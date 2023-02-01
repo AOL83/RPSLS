@@ -32,31 +32,6 @@ body {
   border: 2px solid hsla(217, 16%, 45%, 0);
   border-radius: 8px;
 }
-/* landing page */
-
-.landing {
-  background-size: contain;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-}
-
-.header-box {
-  background-color: rgba(255, 255, 255, 0.8);
-  padding: 20px;
-  border-radius: 10px;
-  text-align: center;
-}
-
-.form-box {
-  background-color: rgba(255, 255, 255, 0.8);
-  padding: 20px;
-  border-radius: 10px;
-  text-align: center;
-}
-
-/* end of landing page */
 /* Radio clock */
 .clock {
   padding: 0;
@@ -405,7 +380,7 @@ section h2 {
   top: 20rem;
   left: calc(50% - 10rem);
   font: 2rem "Barlow Semi Condensed", sans-serif;
-  background: hsl(196, 99%, 51%);
+  background: hsl(0, 99%, 51%);
   border: 1px solid hsl(217, 16%, 45%);
   border-radius: 6px;
   color: hsl(0, 0%, 100%);
@@ -415,7 +390,7 @@ section h2 {
   transition: ease-out 300ms;
 }
 #playAgain:hover {
-  background: hsl(228, 100%, 85%);
+  background: hsl(111, 100%, 50%);
   color: hsl(228, 96%, 18%);
   transition: ease-in 300ms;
 }
@@ -510,7 +485,7 @@ section h2 {
   text-align: center;
   border: 1px solid hsl(0, 0%, 53%);
   border-radius: 10px;
-  animation-name: animateshow;
+  animation-name: animate-show;
   animation-duration: 1s;
   animation-timing-function: ease-out;
 }
@@ -536,7 +511,7 @@ section h2 {
   cursor: pointer;
 }
 /* Modal Animation */
-@keyframes animateshow {
+@keyframes animate-show {
   from {
     top: -50rem;
   }
