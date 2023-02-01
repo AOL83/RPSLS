@@ -3,7 +3,7 @@
 
 # Second Module - Rock, Paper, Scissors, Lizard, spock.
 
-![Design preview for the Rock, Paper, Scissors coding challenge](./design/desktop-preview.jpg)
+![Design preview for the Rock, Paper, Scissors coding challenge](Terence-rock-paper-scissors-lizard-spock-master/design/desktop-preview.jpg)
 
 ## Welcome! 😁
 
