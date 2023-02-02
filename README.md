@@ -9,6 +9,10 @@
 
 Thanks for checking out my attempt at the Code Institutes second Module challenge / Rock - Papper - scissors - Lizard- Spock. / help from the front-end coding challenge.
 
+This website is aimed at anyone that likes a good game of rock paper scissors lizard spock. The aim is to give the sites user - A great user experience and submersive experience. It is also designed to showcase a clock with date two audio players by incorporating a function that allows you to pick your own song and providing contact information about the creator of this project. It is also aimed at game heads who maybe are looking for a good game of RPSLS 😂. Users of the site will be able to gain contact information and also submit a password to gain access.
+
+From the owner's perspective, the aim of the website is to generate revenue by providing a game that services, showcasing and encouraging potential clients to make contact.
+
 [Frontend Mentor](https://www.frontendmentor.io) challenges allow you to improve your skills in a real-life workflow.
 
 **To do this challenge, you need a basic understanding of HTML, CSS and JavaScript.**
