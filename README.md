@@ -278,7 +278,7 @@ The full site has been passed through wave.webaim.org to check for accessibility
 ## Credits
 ----
 
-* I used very similar code for my home page, nav bar and footer as taught in the 'Love Running Walk through Project' on the [Code Institute's](https://codeinstitute.net/) Full Stack Web Development course.  I did change some styling, but ultimately I was aiming for a similar layout for my main page and navigation links/footer and as this was my first project this code helped me to get off to a good start.
+* Full Stack Web Development course..
 
 * [CSS-Tricks](https://css-tricks.com/) has been an invaluable resource and I have read many articles relating to positioning, flex box, and styling my contact form.
 
