@@ -280,9 +280,9 @@ The full site has been passed through wave.webaim.org to check for accessibility
 
 * Full Stack Web Development course..
 
-* [CSS-Tricks](https://css-tricks.com/) has been an invaluable resource and I have read many articles relating to positioning, flex box, and styling my contact form.
+* [CSS-Tricks](https://css-tricks.com/) has been an invaluable resource and I have read many articles relating to positioning, flex box, and styling.
 
-* [W3 Schools](https://www.w3schools.com/) - Again a valuable resource for consolidating what I had already learned and finding out more about HTML and CSS properties.
+* [W3 Schools](https://www.w3schools.com/) - Valuable resource for consolidating what I had already learned and finding out more about HTML and CSS properties.
 
 * [ColorSpace](https://) - TBA.
 
@@ -290,7 +290,7 @@ The full site has been passed through wave.webaim.org to check for accessibility
 
 * [Google](http://google.com) 👏 
 
-* [Online Convert](https://image.online-convert.com/convert-to-webp) - used to convert images from jpeg to webp for better performance nice 😁.
+* [Online Convert](https://image.online-convert.com/convert-to-webp) - used to convert images for better performance nice 😁.
 
 * [Tinypng](https://tinypng.com/) used to compress images for better performance 😊.
 
@@ -300,6 +300,7 @@ The full site has been passed through wave.webaim.org to check for accessibility
 ----
 * HTML
 * CSS
+* JAVASCRIPT 
 
 ## Frameworks and Libraries
 
