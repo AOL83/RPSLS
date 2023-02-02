@@ -76,7 +76,7 @@ In conclusion, building this project that uses all the code types requires a mul
 
 Building this game also requires a comprehensive understanding of various coding languages such as HTML, CSS, and JavaScript. The process of building a game typically involves several steps, which are discussed below in detail.
 
-HTML (Hypertext Markup Language) serves as the backbone of the game. It is used to create the structure of the game and define the elements that are displayed on the screen. To build a game, you need to create a container for the game using HTML tags such as <div>. The <div> tag is used to define the container for the game.
+HTML (Hypertext Markup Language) serves as the backbone of the game. It is used to create the structure of the game and define the elements that are displayed on the screen. To build a game, you need to create a container for the game using HTML tags such as div. The div tag is used to define the container for the game.
 
 CSS (Cascading Style Sheets) is used to style the HTML elements. It allows you to control the look and feel of the game by defining styles such as color, font size, and layout. CSS is essential in making the game look aesthetically pleasing and professional. You can use CSS styles such as background-color, width, and height to control the appearance of the game container. Additionally, you can use CSS to define the styles for different game elements such as buttons, text, and images.
 
