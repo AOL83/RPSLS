@@ -275,15 +275,6 @@ The full site has been passed through wave.webaim.org to check for accessibility
 ![How the contact form looks in devtools](add file path)
 ![How the contact form looks on my iPhone 11 in Safari](add file path)
 
-## Deployment 
-----
- This site was deployed to GitHub pages.  The steps taken to deploy the site are as follows:
-
- * In the GitHub Repositorie, select the settings menu
- * Choose the pages tab on the left hand side menu
- * From the source section drop-down menu, select the 'Main' branch
- * Once the page has automatically refreshed, the link to the successfully deployed page will be displayed.
-
 ## Credits
 ----
 
