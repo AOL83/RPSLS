@@ -153,7 +153,7 @@ Overall, the code is a CSS stylesheet that controls the visual design and layout
 
 Now for my JavaScript this is a JavaScript file that creates a Rock, Paper, Scissors, Lizard, Spock game. The game includes an audio player, a clock, a modal with game rules, and an interactive game page where players can select their move and play against the computer.
 
-The first section of the code creates an audio player that allows the user to select and play a background music for the game. The audio player includes a play/pause button and an input field to select the audio file. The play button is designed to change color from white to green when the audio is playing, and the play icon is designed to rotate while the audio is playing.
+The first section of the code creates an audio player that allows the user to select and play background music for the game. The audio player includes a play/pause button and an input field to select the audio file. The play button is designed to change color from white to green when the audio is playing, and the play icon is designed to rotate while the audio is playing.
 
 The second section of the code creates a clock that displays the current date and time at the top of the page. The clock updates every second using the setInterval() function.
 
@@ -325,7 +325,7 @@ A massive thank you to Clever Programmer https://github.com/CleverProgrammers - 
 
 A massive thank you to Competent Programming https://www.twitch.tv/competent_programming - https://www.youtube.com/@CompetentProgramming and his YouTube video on the advanced version of RPSLS.
 
-A massive thank you to kevin powell https://www.youtube.com/@KevinPowell - https://www.instagram.com/kevinpowell.co/ for his vast knowledge of all things to do with responsive layouts HTML, CCS, and Js.
+A massive thank you to kevin powell https://www.youtube.com/@KevinPowell - https://www.instagram.com/kevinpowell.co/ for his vast knowledge of all things to do with responsive layouts HTML, CSS, and Js.
 
 A massive thank you to the Slack community!
 
