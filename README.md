@@ -268,22 +268,12 @@ The full site has been passed through wave.webaim.org to check for accessibility
 
 ### - Bugs to fix 
 
-* Despite the buttons on the 'Price List' and 'Contact' pages having the exact same CSS applied to them, the styling would be applied differently when in the browser - one would have the  zoom effect applied but the other wouldn't and in the Safari browser, the buttons would have different a border radius.  I realised this was because the button on the pricelist page was set as an anchor tag and the the button on the contact page was an ```input type="submit"``` button and part of the form.  I fixed this issue by changing the button on the pricelist page to from:
+* 
 
- ``` <a href="contact.html class="enquire-button">Contact Me</a>``` 
- 
- to 
+* 
 
-```<form action="contact.html" method="GET" aria-label="Click to open contact page"> <input type="submit" value="Contact Me" class="enquire-button"> </form>``` 
-                
-reusing the class attribute attached to the submit button on the contact page so as not to repeat code.  This produced the desired effect and both buttons now look and work the same. 
-
-Whilst this is not semantically perfect, for the purpose of this project and given the time constraints, this is a suitable workaround for the time-being.  This is a bug I would like to rectify in the future when I have further understanding of applying CSS to different elements to maintain consistency across site.
-
-* The position on the contact page of the date and time input fields are not quite in the right place on my iPhone 11 using Safar and Chrome, although I have noted from others who have tested the website on Samsung devices that the position shows as it should.  I need to do further research into why this could be happening and find a solution, however given the time constraints of this project, this is not something I have yet managed to do.  Below are the screenshots of how the form should look (using Dev Tools in Chrome) and how it actually appears on my iPhone 11 using Safari.
-
-![How the contact form looks in devtools](assets/testing/contact-form-position-devtools.png)
-![How the contact form looks on my iPhone 11 in Safari](assets/testing/contact-form-position-error.png)
+![How the contact form looks in devtools](add file path)
+![How the contact form looks on my iPhone 11 in Safari](add fgile path)
 
 ## Deployment 
 ----
@@ -293,8 +283,6 @@ Whilst this is not semantically perfect, for the purpose of this project and giv
  * Choose the pages tab on the left hand side menu
  * From the source section drop-down menu, select the 'Main' branch
  * Once the page has automatically refreshed, the link to the successfully deployed page will be displayed.
-
-Live link found here:  [Pip Southgate MUA - Bespoke Bridal Makeup](https://shellied.github.io/pip-southgate-mua/)
 
 ## Credits
 ----
