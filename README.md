@@ -11,7 +11,7 @@ Thanks for checking out my attempt at the Code Institutes second Module challeng
 
 ![Am I Responsive Screenshots](Terence-rock-paper-scissors-lizard-spock-master/images/responsive.png)
 
-This website is aimed at anyone that likes a good game of rock paper scissors lizard spock. The aim is to give the sites user - A great user experience and submersive experience. It is also designed to showcase a clock with date two audio players by incorporating a function that allows you to pick your own song and providing contact information about the creator of this project. It is also aimed at game heads who maybe are looking for a good game of RPSLS 😂. Users of the site will be able to gain contact information from the game page and once a password has been submitted.
+This website is aimed at anyone that likes a good game of rock paper scissors lizard spock. The aim is to give the sites user - A great and submersive experience. It is also designed to showcase a clock with date two audio players by incorporating a function that allows you to pick your own song and providing contact information about the creator of this project. It is also aimed at game heads who maybe are looking for a good game of RPSLS 😂. Users of the site will be able to gain contact information from the game page and once a password has been submitted.
 
 From the owner's perspective, the aim of the website is to generate revenue by providing a game that services, showcasing and encouraging potential clients to make contact.
 
