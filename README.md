@@ -9,7 +9,9 @@
 
 Thanks for checking out my attempt at the Code Institutes second Module challenge / Rock - Papper - scissors - Lizard- Spock. / help from the front-end coding challenge.
 
-This website is aimed at anyone that likes a good game of rock paper scissors lizard spock. The aim is to give the sites user - A great user experience and submersive experience. It is also designed to showcase a clock with date two audio players by incorporating a function that allows you to pick your own song and providing contact information about the creator of this project. It is also aimed at game heads who maybe are looking for a good game of RPSLS 😂. Users of the site will be able to gain contact information and also submit a password to gain access.
+![Am I Responsive Screenshots](Terence-rock-paper-scissors-lizard-spock-master/images/responsive.png)
+
+This website is aimed at anyone that likes a good game of rock paper scissors lizard spock. The aim is to give the sites user - A great user experience and submersive experience. It is also designed to showcase a clock with date two audio players by incorporating a function that allows you to pick your own song and providing contact information about the creator of this project. It is also aimed at game heads who maybe are looking for a good game of RPSLS 😂. Users of the site will be able to gain contact information from the game page and once a password has been submitted.
 
 From the owner's perspective, the aim of the website is to generate revenue by providing a game that services, showcasing and encouraging potential clients to make contact.
 
@@ -30,13 +32,13 @@ our users should be able to:
 
 If the player wins, they gain 1 point. If the computer wins, the player loses one point.
 
-#### Original
+#### Original version 
 
 - Paper beats Rock
 - Rock beats Scissors
 - Scissors beats Paper
 
-#### Advanced 
+#### Advanced version/My choice 
 
 - Scissors beats Paper
 - Paper beats Rock
@@ -97,44 +99,20 @@ My code is a combination of HTML, CSS, and JavaScript that creates an interactiv
 
 ## Deploying your project
 ![BIGbang pic!](Terence-rock-paper-scissors-lizard-spock-master/images/landingpage.png)
+ This site was depoloyed to GitHub pages.  The steps taken to deploy the site are as follows:
 
-To deploy your project on GitHub, follow these steps:
-
-Create a GitHub account if you don't have one.
-
-Create a new repository for your project. Give it a descriptive name and initialize it with a README file.
-
-Open your terminal and navigate to the root directory of your project.
-
-Initialize a Git repository in the root directory of your project using the following command:
-
-csharp
-Copy code
-$ git init
-Add the GitHub remote repository to your local repository using the following command:
-csharp
-Copy code
-$ git remote add origin [repository-url]
-Replace [repository-url] with the URL of your GitHub repository.
-
-Add all the files in your project to the Git repository using the following command:
-
-csharp
-$ git add .
-Commit the changes to the repository using the following command:
-
-ruby
-$ git commit -m "Initial commit"
-Push the changes to the GitHub repository using the following command:
-
-perl
-$ git push -u origin master
+ * In the GitHub respository, select the settings menu
+ * Choose the pages tab on the left hand side menu
+ * From the source section drop-down menu, select the 'Main' branch
+ * Once the page has automatically refreshed, the link to the successfully deployed page will be displayed.
 
 Your project is now deployed on GitHub and can be accessed using the URL of your repository.
-Note: You can repeat steps 6 to 8 every time you make changes to your project and want to update the GitHub repository.
+
 ## Giving feedback on my project
 
-Feedback is always welcome, "So" here is mine, Im going to start with my index.html page but my hole web project is written in a combination of HTML, CSS and JavaScript. The page is a game of Rock, Paper, Scissors, Lizard, Spock, from the famous U.S series the big bang theory which at hart is an extension of the traditional game of Rock, Paper, Scissors.
+Feedback is always welcome. 
+
+Im going to start with my index.html page but my hole web project is written in a combination of HTML, CSS and JavaScript. The page is a game of Rock, Paper, Scissors, Lizard, Spock, from the famous U.S series the big bang theory which at hart is an extension of the traditional game of Rock, Paper, Scissors.
 
 The code starts with the declaration of the document type, <!DOCTYPE html>, which tells the browser that this is an HTML document. The next line, <html lang="en">, declares that the document is in English.
 
@@ -148,16 +126,16 @@ The webpage also includes a button to open a modal displaying the rules of the g
 
 In the main section of the webpage, the game itself is implemented. The game features icons for each of the game options - rock, paper, scissors, lizard, and spock. These icons are implemented as div elements with specific class names and data attributes. The game is implemented using JavaScript and event listeners are added to the icons to detect when they are clicked and determine the outcome of the game.
 
-Overall, I think my code is a well-structured and functional webpage that implements a game of Rock, Paper, Scissors, Lizard, Spock, complete with an audio player, a score card, and a modal for the rules. I have used HTML, CSS, and JavaScript to create a dynamic and interactive experience for the user.
+I think my code is a well-structured and functional webpage that implements a game of Rock, Paper, Scissors, Lizard, Spock, complete with an audio player, a score card, and a modal for the rules. I have used HTML, CSS, and JavaScript to create a dynamic and interactive experience for the user.
 
 Now for my CSS.
 The CSS stylesheet that controls the visual design and layout of my webpage. The CSS styles are applied to the HTML elements of the webpage.
 
-The first CSS rule sets the font-size to 62.5%. sets the box-sizing property to border-box, sets the height to 100%, and sets the background color and background image of my webpage. The background color is set to hsl(237, 49%, 15%) and the background image is set to a radial gradient of hsl(214, 43%, 35%) and hsl(237, 49%, 15%), as well as a gif image of a animated emoji. The background-position, background-repeat, and background-size properties are also set to center, no-repeat, and cover respectively.
+The first CSS rule sets the font-size to 62.5pre. sets the box-sizing property to border-box, sets the height to 100per, and sets the background color and background image of my webpage. The background color is set to hsl(237, 49per, 15per) and the background image is set to a radial gradient of hsl(214, 43per, 35per) and hsl(237, 49per, 15per), as well as a gif image of a animated emoji. The background-position, background-repeat, and background-size properties are also set to center, no-repeat, and cover respectively.
 
-The next CSS rule sets the box-sizing property to inherit for all elements, which means that the box-sizing property of the parent element will be inherited by all child elements. The body element is also given a margin, font, and font-weight. A focus rule is added to set the outline of an element to 3px dotted hsl(0, 100%, 50%) when it is focused.
+The next CSS rule sets the box-sizing property to inherit for all elements, which means that the box-sizing property of the parent element will be inherited by all child elements. The body element is also given a margin, font, and font-weight. A focus rule is added to set the outline of an element to 3px dotted hsl(0, 100per, 50per) when it is focused.
 
-The .header class is used to set the display property to flex, the width and max-width to 76rem, and the margin to 0 auto. The justify-content property is set to space-between and the padding and border properties are also set.
+The dot header class is used to set the display property to flex, the width and max-width to 76rem, and the margin to 0 auto. The justify-content property is set to space-between and the padding and border properties are also set.
 
 The .clock class is used to set the font-size, font-weight, color, text-align, and padding of the clock element. The background color is set to rgba(51, 51, 51, 0) and the z-index is set to 1.
 
@@ -189,7 +167,170 @@ The sixth section of the code creates sounds for the game, these include backgro
 
 The seventh and final section of the code handles the logic of the game. When the user clicks on a move on the start page, the game generates a random move for the computer, compares the two moves, and displays the outcome on the result page. The game also updates the scorecard and plays the appropriate sound based on the outcome. The game allows the user to play again by clicking on the "play again" button.
 
-Overall, the code provided creates an interactive and visually appealing game that combines HTML, CSS, and JavaScript to create an enjoyable experience for the user. The game includes various interactive elements such as an audio player, a clock, and a modal that adds to the overall user experience.
+The code provides and creates an interactive and visually appealing game that combines HTML, CSS, and JavaScript to create an enjoyable experience for the user. The game includes various interactive elements such as an audio player, a clock, and a modal that adds to the overall user experience.
+
+<br>
+
+### Features Left to Implement
+
+* 
+*  
+* 
+*  
+
+
+## Testing
+----
+
+I have regularly tested all aspects of the site functionality including all links, inputs and responsiveness through Dev Tools in Chrome for the following devices:-
+
+* Galaxy S5
+* Pixel 3
+* Pixel 2 XL
+* iPhone 5/SE
+* iPhone 6/7/8
+* iPhone 6/7/8 Plus
+* iPhone X
+* iPhone 11 Pro
+* iPad
+* iPad Pro
+* Surface Due
+* Galaxy Fold
+* Nest Hub
+* Nest Hub Max
+
+I have also tested the site physically on the below devices:
+
+* iPhone 13 pro
+* iPhone 11 Pro
+* Mac Book Pro 
+
+
+I have also regularly tested the site using the following browsers:-
+
+* Chrome
+* Safari
+* Firefox
+* Edge
+
+
+### Validator testing 
+
+* CSS file has been run through W3C CSS Validator and no errors have been found.  
+* All HTML files have been passed through the W3C HTML Validator and no errors have been found. 
+
+<details>
+
+![W3C CSS Validator Results (Jigsaw)]()
+![W3C CSS Validator Warnings (Jigsaw)]()
+
+<summary>CSS (W3C Validator)</summary>
+
+</details>
+
+<br>
+
+<details>
+
+![W3C Validator Testing - Home Page]()
+![W3C Validator Testing - Sign-in Page ]()
+
+
+
+
+
+<summary>HTML (W3C Validator)</summary>
+
+</details>
+
+<br>
+
+<details>
+
+![Lighthouse Testing - Home Page]()
+![Lighthouse Testing - Sign-in Page]()
+
+<summary>Lighthouse Testing</summary>
+
+</details>
+
+### Accessibility Testing
+
+The full site has been passed through wave.webaim.org to check for accessibility and the full report can be found [here.]()
+
+
+### Bugs
+---
+
+* To be added.  
+
+* To be added.
+
+### - Bugs to fix 
+
+* Despite the buttons on the 'Price List' and 'Contact' pages having the exact same CSS applied to them, the styling would be applied differently when in the browser - one would have the  zoom effect applied but the other wouldn't and in the Safari browser, the buttons would have different a border radius.  I realised this was because the button on the pricelist page was set as an anchor tag and the the button on the contact page was an ```input type="submit"``` button and part of the form.  I fixed this issue by changing the button on the pricelist page to from:
+
+ ``` <a href="contact.html class="enquire-button">Contact Me</a>``` 
+ 
+ to 
+
+```<form action="contact.html" method="GET" aria-label="Click to open contact page"> <input type="submit" value="Contact Me" class="enquire-button"> </form>``` 
+                
+reusing the class attribute attached to the submit button on the contact page so as not to repeat code.  This produced the desired effect and both buttons now look and work the same. 
+
+Whilst this is not semantically perfect, for the purpose of this project and given the time constraints, this is a suitable workaround for the time-being.  This is a bug I would like to rectify in the future when I have further understanding of applying CSS to different elements to maintain consistency across site.
+
+* The position on the contact page of the date and time input fields are not quite in the right place on my iPhone 11 using Safar and Chrome, although I have noted from others who have tested the website on Samsung devices that the position shows as it should.  I need to do further research into why this could be happening and find a solution, however given the time constraints of this project, this is not something I have yet managed to do.  Below are the screenshots of how the form should look (using Dev Tools in Chrome) and how it actually appears on my iPhone 11 using Safari.
+
+![How the contact form looks in devtools](assets/testing/contact-form-position-devtools.png)
+![How the contact form looks on my iPhone 11 in Safari](assets/testing/contact-form-position-error.png)
+
+## Deployment 
+----
+ This site was depoloyed to GitHub pages.  The steps taken to deploy the site are as follows:
+
+ * In the GitHub respository, select the settings menu
+ * Choose the pages tab on the left hand side menu
+ * From the source section drop-down menu, select the 'Main' branch
+ * Once the page has automatically refreshed, the link to the successfully deployed page will be displayed.
+
+Live link found here:  [Pip Southgate MUA - Bespoke Bridal Makeup](https://shellied.github.io/pip-southgate-mua/)
+
+## Credits
+----
+
+* I used very similar code for my home page, nav bar and footer as taught in the 'Love Running Walk through Project' on the [Code Institute's](https://codeinstitute.net/) Full Stack Web Development course.  I did change some styling, but ultimately I was aiming for a simliar layout for my main page and navigation links/footer and as this was my first project this code helped me to get off to a good start.
+
+* [CSS-Tricks](https://css-tricks.com/) has been an invaluable resource and I have read many articles relating to positioning, flexbox, and styling my contact form.
+
+* [W3 Schools](https://www.w3schools.com/) - Again a valuable resource for consolidating what I had already learned and finding out more about HTML and CSS properties.
+
+* [ColorSpace](https://) - TBA.
+
+* [StackOverflow](https://stackoverflow.com/) - A good resource for finding answers to problems I was having 🧠.
+
+* [Google](http://google.com) 👏 
+
+* [Online Convert](https://image.online-convert.com/convert-to-webp) - used to convert images from jpeg to webp for better performance nice 😁.
+
+* [Tinypng](https://tinypng.com/) used to compress images for better performance 😊.
+
+* TBA.
+
+## Technologies Used
+----
+* HTML
+* CSS
+
+## Frameworks and Libraries
+
+* FontAwesome
+* Google Fonts
+* GitHub
+* GitPod
+* GitPages
+* Am I Responsive
+* Dev Tools
 
 **Have fun playing my live version of the game link below!** 🚀
 [See my game live here in GitHub pages](https://aol83.github.io/)
