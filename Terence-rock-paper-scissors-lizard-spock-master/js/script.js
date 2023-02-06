@@ -93,10 +93,10 @@ const handleClick = (event) => {
   
   // PRINT SCORE
   whoWin = () => {
-    // Load the score from local storage
+    // Get the current score from local storage or set it to 0 if not found
     scoreTotal = parseInt(localStorage.getItem('score')) || 0;
     score.innerHTML = scoreTotal;
-  
+    
     let showScoreTotal = () => {
       setTimeout(() => {
         score.innerHTML = scoreTotal;
@@ -133,6 +133,7 @@ const handleClick = (event) => {
       setTimeout(() => {
         audioYouLose.play();
       }, 1000);
+      localStorage.setItem('score', scoreTotal);
       showScoreTotal();
     } else {
       messageWhoWin.innerHTML =
@@ -141,10 +142,9 @@ const handleClick = (event) => {
       setTimeout(() => {
         audioYouWin.play();
       }, 1000);
+      localStorage.setItem('score', scoreTotal);
       showScoreTotal();
     }
-    // Save the score in local storage
-    localStorage.setItem('score', scoreTotal);
   };
 
   setTimeout(() => {
