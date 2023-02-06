@@ -72,6 +72,7 @@ const audioYouWin = document.querySelector("[data-sound=you-win]");
 const audioYouLose = document.querySelector("[data-sound=you-lose]");
 const audioDraw = document.querySelector("[data-sound=draw]");
 // START PLAY
+
 const handleClick = (event) => {
   audioUserChoice.play();
   document.body.classList.toggle("result");
@@ -89,9 +90,13 @@ const handleClick = (event) => {
   resultPage.style.display = "block";
   userIcon.classList.toggle(userPlayerChoice);
   scoreTotal = 0;
+  
   // PRINT SCORE
   whoWin = () => {
-    scoreTotal = parseInt(score.innerHTML);
+    // Load the score from local storage
+    scoreTotal = parseInt(localStorage.getItem('score')) || 0;
+    score.innerHTML = scoreTotal;
+  
     let showScoreTotal = () => {
       setTimeout(() => {
         score.innerHTML = scoreTotal;
@@ -138,6 +143,8 @@ const handleClick = (event) => {
       }, 1000);
       showScoreTotal();
     }
+    // Save the score in local storage
+    localStorage.setItem('score', scoreTotal);
   };
 
   setTimeout(() => {
@@ -154,6 +161,7 @@ const handleClick = (event) => {
   }, 1000);
 };
 
+
 for (let el of arrChoices) {
   el.addEventListener("click", handleClick);
   el.addEventListener("keypress", handleClick);
@@ -169,6 +177,7 @@ document.querySelector("#switch").addEventListener("click", (e) => {
   e.target.classList.toggle("playBgSound");
   e.target.classList.contains("playBgSound") ? bgSound.play() : bgSound.pause();
 });
+
 function checkPassword() {
   var password = document.getElementById("password").value;
   if (password == "helloworld") {
@@ -177,3 +186,4 @@ function checkPassword() {
     alert("Wrong password, try again.");
   }
 }
+

@@ -627,4 +627,10 @@ section h2 {
     height: 36rem;
   }
 }
+
+@media (max-width: 42rem) {
+  footer {
+    text-align: center;
+  }
+}
 /* End Media Queries */
