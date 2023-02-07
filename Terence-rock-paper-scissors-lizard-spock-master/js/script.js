@@ -71,6 +71,7 @@ const audioUserChoice = document.querySelector("[data-sound=user-choice]");
 const audioYouWin = document.querySelector("[data-sound=you-win]");
 const audioYouLose = document.querySelector("[data-sound=you-lose]");
 const audioDraw = document.querySelector("[data-sound=draw]");
+const audioGameOver = document.querySelector("[data-sound=draw]");
 
 // START PLAY
 let tries = 6; // Add a variable to store the amount of tries
@@ -113,7 +114,7 @@ const handleClick = (event) => {
     };
     // Check if the player has reached the maximum amount of tries
     if (tries === 0) {
-      messageWhoWin.innerHTML = '<div id="game-over-message">Refresh🤪</div>';
+      messageWhoWin.innerHTML = '<div id="game-over">Refresh🤪</div>';
       setTimeout(() => {
         audioGameOver.play();
       }, 1000);
