@@ -27,6 +27,19 @@ our users should be able to:
 
 - View the optimal layout for the game depending on their device's screen size
 - Play Rock, Paper, Scissors, Lizard, Spock against the computer
+Build a Rock, Paper, Scissors, Lizard, Spock Game
+External user’s goal:
+
+The site’s users want to play an online game that has elements of chance.
+Site owner's goal:
+
+The site’s goal is to provide a challenging game with increasing levels of difficulty to entertain online users.
+Potential features to include:
+
+Pattern matching functionality
+A limited number of tries before the game is over
+A score tracking system
+The ability to play against the computer
 
 ### Rules
 
