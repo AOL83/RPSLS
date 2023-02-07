@@ -58,7 +58,9 @@ Not sure what Rock, Paper, Scissors, Lizard, Spock is? [Check out this clip from
 
 Want some support on the challenge? [Join our Slack community](https://www.frontendmentor.io/slack) and ask questions in the **#help** channel.
 
-## Building my project
+##  CODES and Explanation's / Building my project 
+
+
 
 // AUDIO PLAYER CODE
 const audio = document.getElementById("audio");
