@@ -60,7 +60,295 @@ Want some support on the challenge? [Join our Slack community](https://www.front
 
 ## Building my project
 
-Building my project that uses all the code types provided requires a multi-disciplinary approach to software development, as each code type has its own strengths and weaknesses and is suited to different tasks. To build out this project that uses all the code types effectively, it is necessary to understand how they can be combined to achieve the desired results.
+// AUDIO PLAYER CODE
+const audio = document.getElementById("audio");
+const playButton = document.getElementById("play-button");
+const audioFile = document.getElementById("audio-file");
+const playIcon = document.getElementById("play-icon");
+
+audioFile.addEventListener("change", (event) => {
+  audio.src = URL.createObjectURL(event.target.files[0]);
+});
+
+playButton.addEventListener("click", () => {
+  if (audio.paused) {
+    audio.play();
+    playButton.classList.add("playing");
+    playIcon.classList.add("fa-spin");
+  } else {
+    audio.pause();
+    playButton.classList.remove("playing");
+    playIcon.classList.remove("fa-spin");
+  }
+});
+
+audio.addEventListener("ended", () => {
+  playButton.classList.remove("playing");
+  playIcon.classList.remove("fa-spin");
+});
+// CLOCK CODE 
+function updateClock() {
+  var now = new Date();
+  var date = now.toDateString();
+  var time = now.toLocaleTimeString();
+  document.getElementById("date").innerHTML = date;
+  document.getElementById("time").innerHTML = time;
+}
+
+setInterval(updateClock, 1000);
+// MODAL
+const modal = document.querySelector("#modal");
+const modalContent = document.querySelector("#modalContent");
+const btnOpenModal = document.querySelector("#openModal");
+const xCloseModal = document.querySelector("#closeModal");
+
+btnOpenModal.addEventListener("click", () => {
+  modal.style.display = "block";
+  modalContent.style.top = 0;
+});
+
+xCloseModal.addEventListener("click", () => {
+  modal.style.display = "none";
+});
+
+window.addEventListener("click", (event) => {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+});
+
+This code above is a JavaScript code that creates an audio player, clock, and modal. The code uses various functions, constants, variables, and punctuation marks to accomplish these tasks.
+// AUDIO PLAYER
+In the audio player section, the first four lines of code use the "const" keyword to declare four constants: audio, playButton, audioFile, and playIcon. These constants are assigned to the elements in the HTML document with the same id values as their constant names.
+The next section uses the addEventListener method to listen for a change event on the audioFile element. When the change event is triggered, the code creates a URL object and sets the source of the audio element to the URL.
+The playButton element also has an addEventListener method, which listens for a click event. When the button is clicked, the code checks if the audio is currently paused. If it is, the audio is played, the playButton class is updated with the "playing" class, and the playIcon class is updated with the "fa-spin" class. If the audio is not paused, the audio is paused, the playButton class is updated to remove the "playing" class, and the playIcon class is updated to remove the "fa-spin" class.
+Finally, the audio element has an addEventListener method that listens for an "ended" event. When the audio ends, the playButton and playIcon classes are updated to remove the "playing" and "fa-spin" classes, respectively.
+
+// CLOCK
+The clock section of the code creates a function called updateClock. This function declares a variable "now" which is assigned the current date and time using the Date object. The date string and time string are then extracted from the "now" variable and assigned to the HTML elements with the id "date" and "time", respectively.
+The setInterval function is used to call the updateClock function every second, so the clock updates continuously.
+// MODAL
+In the modal section of the code, the first three lines declare constants using the "const" keyword. These constants are assigned to elements in the HTML document with the same id values as their constant names.
+The next section uses addEventListener to listen for a click event on the btnOpenModal element. When the button is clicked, the display style of the modal element is set to "block" and the top style of the modalContent element is set to 0.
+The xCloseModal element also has an addEventListener method, which listens for a click event. When the "x" close button is clicked, the display style of the modal element is set to "none."
+Finally, the window object has an addEventListener method that listens for a click event. When the window is clicked, the code checks if the target of the event is the modal element. If it is, the display style of the modal element is set to "none."
+In conclusion, this code uses functions, constants, variables, and various punctuation marks such as semicolons, colons, commas, apostrophes, quotation marks, braces, brackets, full stops, parentheses, square brackets, curly braces, equal signs, double equal signs, triple equal signs, greater than or equal to sign, plus sign, "if" and "else" statements, and parentheses to create an audio player, clock, and modal.
+
+
+// GLOBAL CODE syntax 
+const allChoices = ["scissors", "spock", "paper", "lizard", "rock"];
+const startPage = document.querySelector("#startPage");
+const arrChoices = startPage.querySelectorAll("div");
+const resultPage = document.querySelector("#resultPage");
+const containerScore = document.querySelectorAll(".score")[0];
+const score = document.querySelector("#score");
+const userIcon = resultPage.querySelector("#userIcon");
+const houseIcon = resultPage.querySelector("#houseIcon");
+const messageWhoWin = document.querySelector("#whoWin");
+const playAgainButton = document.querySelector("#playAgain");
+
+This code above sets up global variables for a game of rock, paper, scissors, lizard, spock. The variables are stored in the JavaScript environment, so they can be used throughout the program.
+The "const" keyword is used to declare these variables as constants, which means their value cannot be changed. The first constant, "allChoices", is an array containing the names of the different choices the player can make.
+The next set of variables are used to select elements from the HTML document. The "startPage" constant is used to select the main game screen, and the "arrChoices" constant is used to select all of the choices available to the player. The "resultPage" constant is used to select the result screen that displays the winner and the score.
+The "containerScore" constant is used to select the score container and the "score" constant is used to select the score itself. The "userIcon" and "houseIcon" constants are used to select the icons that represent the player and the house, respectively. The "messageWhoWin" constant is used to select the message that displays the winner.
+Finally, the "playAgainButton" constant is used to select the button that allows the player to play again.
+Note that the code uses the "querySelector" method to select elements from the HTML document and the "querySelectorAll" method to select multiple elements. These methods are used to access the DOM (Document Object Model) and manipulate elements in the HTML document.
+
+
+
+
+//SOUNDS GLOBALS
+const bgSound = document.querySelector("[data-sound=bg-sound]");
+const audioUserChoice = document.querySelector("[data-sound=user-choice]");
+const audioYouWin = document.querySelector("[data-sound=you-win]");
+const audioYouLose = document.querySelector("[data-sound=you-lose]");
+const audioDraw = document.querySelector("[data-sound=draw]");
+
+
+In this code above, the sounds used in the game are declared as global constants using the "const" keyword.
+"bgSound" constant is assigned the background sound element from the HTML document using the "querySelector" method.
+"audioUserChoice" constant is assigned the sound that plays when the user makes a choice from the HTML document using the "querySelector" method.
+"audioYouWin" constant is assigned the sound that plays when the user wins from the HTML document using the "querySelector" method.
+"audioYouLose" constant is assigned the sound that plays when the user loses from the HTML document using the "querySelector" method.
+"audioDraw" constant is assigned the sound that plays when the game ends in a draw from the HTML document using the "querySelector" method.
+The "querySelector" method is used to select the first element that matches a specified CSS selector. The selector is passed as an argument in the form of a string in square brackets. In this case, the selector is using a custom data attribute to select the desired audio elements, "[data-sound=bg-sound]", "[data-sound=user-choice]", "[data-sound=you-win]", "[data-sound=you-lose]", and "[data-sound=draw]" respectively.
+This code is setting up the global constants for the sound elements used in the game, which can be referenced and used later in the code.
+
+// START PLAY CODE
+const handleClick = (event) => {
+  audioUserChoice.play();
+  document.body.classList.toggle("result");
+  userIcon.classList.remove("scissors", "spock", "paper", "lizard", "rock");
+  houseIcon.classList.remove("scissors", "spock", "paper", "lizard", "rock");
+  playAgainButton.style.display = "none";
+  messageWhoWin.style.display = "none";
+  houseIcon.style.display = "none";
+
+
+  const userPlayerChoice = event.target.dataset.choice;
+  const housePlayerIndex = Math.floor(Math.random() * 5);
+  const housePlayerChoice = allChoices[housePlayerIndex];
+
+
+  startPage.style.display = "none";
+  resultPage.style.display = "block";
+  userIcon.classList.toggle(userPlayerChoice);
+  scoreTotal = 0;
+
+
+This code above is part of a Rock, Paper, Scissors game. The function "handleClick" is triggered when the player clicks on one of the choices (rock, paper, scissors, lizard or spock). The function starts by playing the "audioUserChoice" sound, removing all previous results from the display and hiding the play again button and the message of who won.
+The "const userPlayerChoice" line gets the player's choice from the data-choice attribute of the clicked element. The "const housePlayerIndex" line generates a random number from 0 to 4 to represent the house's choice. The "const housePlayerChoice" line maps the house's choice to one of the five choices (rock, paper, scissors, lizard or spock) by using the random number generated before.
+The start page is then hidden and the result page is displayed. The user's choice is then added as a class to the user icon and the score total is reset to 0. The house's choice is not yet displayed as it is going to be revealed later in the code.
+
+// PRINT SCORE CODE
+  whoWin = () => {
+    // Get the current score from local storage or set it to 0 if not found
+    scoreTotal = parseInt(localStorage.getItem('score')) || 0;
+    score.innerHTML = scoreTotal;
+    
+    let showScoreTotal = () => {
+      setTimeout(() => {
+        score.innerHTML = scoreTotal;
+        let bgScore =
+          scoreTotal < 0
+            ? "hsl(0, 100%, 60%)"
+            : scoreTotal == 0
+            ? "hsl(0, 0%, 100%)"
+            : "rgb(183, 241, 183)";
+        containerScore.style.backgroundColor = bgScore;
+      }, 1000);
+    };
+
+
+The code above is defining a function called whoWin using the arrow function syntax. The purpose of this function is to calculate and display the total score of the game. The score is being retrieved from the local storage using localStorage.getItem('score'). The parseInt() method is used to convert the score from a string value to an integer value. The result of the parseInt() method is then stored in the scoreTotal variable. The score is then displayed on the HTML page using the innerHTML property.
+A nested function showScoreTotal is also defined inside the whoWin function. This function is using the setTimeout() method to delay the execution of its code block by 1000 milliseconds. The innerHTML property of the score element is then set to the value of scoreTotal.
+The background color of the containerScore element is also being set based on the value of the score. If the score is less than 0, the background color is set to "hsl(0, 100%, 60%)". If the score is equal to 0, the background color is set to "hsl(0, 0%, 100%)". If the score is greater than 0, the background color is set to "rgb(183, 241, 183)".
+The punctuation marks used in this code include the arrow function syntax (=>), parentheses (()), brackets ([]), and the semicolons (;) to end the lines of code. The equality operator (==) and the less than or equal to operator (<=) are used in the conditional statement to determine the value of the bgScore variable. The setTimeout() method uses parentheses to pass the function showScoreTotal and the delay time as arguments. The equal sign (=) is used to assign values to variables. The plus sign (+) is not used in this code.
+
+// GAME RULES CONDITIONS CODE
+    if (userPlayerChoice == housePlayerChoice) {
+      messageWhoWin.innerHTML = '<div id="draw-message">DRAW &#128580;<div>';
+      setTimeout(() => {
+        audioDraw.play();
+      }, 1000);
+    } else if (
+      (userPlayerChoice == "scissors" &&
+        (housePlayerChoice == "spock" || housePlayerChoice == "rock")) ||
+      (userPlayerChoice == "spock" &&
+        (housePlayerChoice == "paper" || housePlayerChoice == "lizard")) ||
+      (userPlayerChoice == "paper" &&
+        (housePlayerChoice == "scissors" || housePlayerChoice == "lizard")) ||
+      (userPlayerChoice == "lizard" &&
+        (housePlayerChoice == "scissors" || housePlayerChoice == "rock")) ||
+      (userPlayerChoice == "rock" &&
+        (housePlayerChoice == "spock" || housePlayerChoice == "paper"))
+    ) {
+      messageWhoWin.innerHTML =
+        '<div id="you-lose-message">YOU LOSE &#129324;</div>';
+      scoreTotal = scoreTotal - 1;
+      setTimeout(() => {
+        audioYouLose.play();
+      }, 1000);
+      localStorage.setItem('score', scoreTotal);
+      showScoreTotal();
+    } else {
+      messageWhoWin.innerHTML =
+        '<div id="you-win-message">YOU WIN &#128513;</div>;';
+      scoreTotal = scoreTotal + 1;
+      setTimeout(() => {
+        audioYouWin.play();
+      }, 1000);
+      localStorage.setItem('score', scoreTotal);
+      showScoreTotal();
+    }
+  };
+
+The code above is checking the conditions of the game rules of a Rock, Paper, Scissors, Lizard, Spock game. The user's choice is stored in the variable "userPlayerChoice" and the computer's choice is stored in the variable "housePlayerChoice".
+The first "if" statement checks if the user's choice is equal to the computer's choice. If so, the messageWhoWin element's innerHTML is set to a "DRAW" message with a unicorn emoji. A setTimeout function is also called that plays an audio file with the "audioDraw.play()" function after 1 second.
+The "else if" statement checks the different possible outcomes of the game based on the combination of the user's choice and the computer's choice. If the conditions are met, the messageWhoWin element's innerHTML is set to either a "YOU LOSE" or "YOU WIN" message with a respective emoji. The "scoreTotal" is either decremented by 1 or incremented by 1 depending on the outcome of the game. A setTimeout function is also called that plays an audio file with either "audioYouLose.play()" or "audioYouWin.play()" after 1 second.
+The score is stored in the local storage using "localStorage.setItem('score', scoreTotal)" and the total score is displayed with the "showScoreTotal()" function.
+Semicolons are used to end each statement. The parentheses are used to indicate a function call or to specify the conditions of an "if" statement. The braces are used to group multiple statements together in a function or to specify the block of code within an "if" or "else" statement. The equality operator "==" is used to compare if two values are equal. The strict equality operator "===" is used to compare if two values are equal and of the same type. The less than or equal to operator ">=" is not used in this code. The addition operator "+" is used to increment the "scoreTotal" value. The if and else statements are used to control the flow of the code based on the conditions specified in the parentheses.
+
+
+setTimeout(() => {
+    whoWin();
+  }, 1000); 
+
+The setTimeout function is used to run a function after a specified amount of time. In this case, the function whoWin() will be executed after 1000 milliseconds (1 second) have passed. The setTimeout function takes two arguments: the first argument is the function to be executed, and the second argument is the amount of time to wait before executing the function.
+The function is passed as an argument to setTimeout is an arrow function, which is a shorter syntax for writing a function in JavaScript. It's equivalent to writing 
+
+setTimeout(function() {
+    whoWin();
+  }, 1000);
+
+The use of an arrow function allows the code to be written more compactly and can make it easier to understand. In this case, the arrow function only contains one line of code, which calls the whoWin() function. The parentheses surrounding the argument are empty because the setTimeout function does not need to receive any inputs.
+
+
+setTimeout(() => {
+    houseIcon.style.display = "block";
+    houseIcon.classList.add(housePlayerChoice);
+    setTimeout(() => {
+      messageWhoWin.style.display = "block";
+      playAgainButton.style.display = "block";
+    }, 1000);
+  }, 1000);
+
+The code is using the JavaScript setTimeout method to delay the execution of the code inside the function passed as the first argument. The setTimeout function takes two arguments, the first is the function to be executed after the specified time and the second argument is the time in milliseconds.
+In this code, a setTimeout function is executed after 1000 milliseconds (1 second) and it sets the display style of the element with the id 'houseIcon' to "block" and adds the class specified in the 'housePlayerChoice' variable to the houseIcon element.
+Then, another setTimeout function is executed inside the previous setTimeout function after another 1000 milliseconds (1 second) which sets the display style of the element with the id 'messageWhoWin' to "block" and sets the display style of the element with the id 'playAgainButton' to "block". This means that the messageWhoWin and playAgainButton elements will be displayed 2 seconds after the first setTimeout function is executed.
+The setTimeout method is useful in JavaScript when you want to delay the execution of a piece of code or when you want to execute a piece of code repeatedly after a specified time.
+
+for (let el of arrChoices) {
+  el.addEventListener("click", handleClick);
+  el.addEventListener("keypress", handleClick);
+}
+
+
+The code uses a for-of loop to iterate over the elements in the array "arrChoices". For each element in the array, the code adds two event listeners: one for clicking on the element and one for pressing a key when the element is selected. The event listeners are both set to call the "handleClick" function.
+The "for (let el of arrChoices)" syntax is a new way of looping over arrays in JavaScript and is equivalent to using a for loop. In this case, the "let" keyword is used to declare a new variable "el" for each iteration of the loop, which will represent the current element of the array being processed.
+The "addEventListener" function is used to add an event listener to the elements in the array. The first argument is the type of event to listen for (in this case "click" or "keypress"). The second argument is a callback function that will be called when the event occurs. The "handleClick" function is the callback function that will be called in both cases.
+The use of parentheses in the function call, "handleClick", indicates that the function should be executed. The parentheses are used to pass arguments to the function, but in this case, no arguments are being passed. The function is called simply to execute the code inside the function body.
+
+
+playAgainButton.addEventListener("click", () => {
+  document.body.classList.remove("result");
+  startPage.style.display = "block";
+  resultPage.style.display = "none";
+});
+
+This code is an event listener for the "playAgainButton" DOM element. It uses the addEventListener() method to listen for a "click" event on the button. When the button is clicked, the code inside the arrow function is executed.
+The first line of the arrow function removes the "result" class from the "body" DOM element.
+The next two lines hide the "startPage" and display the "resultPage".
+The "display" property of the "startPage" is set to "block" and the "resultPage" is set to "none". This changes the visibility of the elements on the page. The "block" value makes an element visible and the "none" value makes an element hidden.
+The arrow function is surrounded by parentheses and is an anonymous function, meaning it doesn't have a name. The parentheses are used to call the function and the "=>" arrow symbol is used to declare an anonymous function in JavaScript.
+The semicolon at the end of the code is used to end the statement.
+
+document.querySelector("#switch").addEventListener("click", (e) => {
+  e.target.classList.toggle("playBgSound");
+  e.target.classList.contains("playBgSound") ? bgSound.play() : bgSound.pause();
+});
+
+The code defines an event listener for an element with the id of "switch". The event listener listens for a click event on the element and calls the anonymous function that takes in the event as an argument (e).
+The first line of the function toggles the class "playBgSound" on the target element (e.target). This class is used to keep track of whether the background sound is currently playing or not.
+The second line of the function uses the ternary operator (?:) to either play or pause the background sound (bgSound). The ternary operator is a shorthand way of writing an if-else statement, with the syntax of condition ? valueIfTrue : valueIfFalse. In this case, the condition is whether the "playBgSound" class is contained in the target element's class list (e.target.classList.contains("playBgSound")). If it is contained, the background sound (bgSound) will be played. If it is not contained, the background sound will be paused.
+The function uses the addEventListener method to bind the click event to the switch element. The first argument to the addEventListener method is the event to listen for (in this case, "click"), and the second argument is the function to call when the event is triggered. The function is defined as an anonymous function within the call to addEventListener, which means that it is only available within the scope of the call.
+
+function checkPassword() {
+  var password = document.getElementById("password").value;
+  if (password == "helloworld") {
+    window.location.href = "index.html";
+  } else {
+    alert("Wrong password, try again.");
+  }
+}
+
+The code defines a function called checkPassword(). The function retrieves the value of an element with an id of "password" from the HTML document and stores it in a variable named password.
+Next, the function checks if the value of password is equal to "helloworld" using the equality operator (==). If the condition is true, the function redirects the user to the "index.html" page using the window.location.href property.
+If the condition is false, the function displays an alert message with the text "Wrong password, try again." using the alert() method.
+The = operator is used to assign a value to a variable while the == operator is used to check if two values are equal.
+The parentheses () after the function name checkPassword indicate that this is a function definition and the curly braces {} that follow it define the body of the function. The code inside the curly braces is executed when the function is called. The semicolon ; at the end of the function definition indicates the end of a statement.
+<br>
+Building my project that uses all the code types provided required a multi-disciplinary approach to software development, as each code type has its own strengths and weaknesses and is suited to different tasks. To build out this project that uses all the code types effectively, it is necessary to understand how they can be combined to achieve the desired results.
 
 The first step in building this project that uses all the code types is to determine the requirements of the project. This will help to identify what code types are needed and how they should be used. For example, if the project requires real-time data processing, then a scripting language such as Python may be a better choice than a compiled language such as Java.
 

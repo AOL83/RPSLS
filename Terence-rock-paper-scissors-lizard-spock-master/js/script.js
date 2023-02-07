@@ -71,8 +71,8 @@ const audioUserChoice = document.querySelector("[data-sound=user-choice]");
 const audioYouWin = document.querySelector("[data-sound=you-win]");
 const audioYouLose = document.querySelector("[data-sound=you-lose]");
 const audioDraw = document.querySelector("[data-sound=draw]");
-// START PLAY
 
+// START PLAY
 const handleClick = (event) => {
   audioUserChoice.play();
   document.body.classList.toggle("result");
