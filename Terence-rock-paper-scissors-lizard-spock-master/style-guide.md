@@ -1,5 +1,7 @@
 # Front-end Style Guide
 
+This is the style guide for the original game mine differs some what.
+
 ## Layout
 
 The designs were created to the following widths:
