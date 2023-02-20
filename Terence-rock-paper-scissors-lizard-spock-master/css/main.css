@@ -2,12 +2,9 @@ html {
   font-size: 62.5%;
   box-sizing: border-box;
   height: 100%;
-  background-color: hsl(237, 49%, 15%);
-  background-image: radial-gradient(hsl(214, 43%, 35%), hsl(237, 49%, 15%));
-  background: linear-gradient(rgba(0, 0, 0, 0.903), rgba(0, 0, 0, 0)),
-    url("https://media0.giphy.com/media/jxTup30VvkvFyKuwtd/giphy.gif?cid=ecf05e47866xk3z2hcw2zst31wu9t0cbgggx2qsxjbfsdc9w&rid=giphy.gif&ct=g");
-  background-position: center;
-  background-repeat: repeat;
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  
   
 }
 
@@ -413,7 +410,7 @@ section h2 {
   color: hsl(270, 100%, 57%);
 }
 .attribution a:hover {
-  color: hsl(201, 100%, 50%);
+  color: hsl(0, 0%, 100%);
   text-decoration: none;
 }
 
@@ -428,7 +425,7 @@ section h2 {
 
 .contact-info p {
   padding: 5px;
-  color: #2294fe;
+  color: #ffffff;
 }
 
 .social-networks {
