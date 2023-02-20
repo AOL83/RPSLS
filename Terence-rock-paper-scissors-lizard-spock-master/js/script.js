@@ -63,12 +63,12 @@ const containerScore = document.querySelectorAll(".score")[0];
 const score = document.querySelector("#score");
 const userIcon = resultPage.querySelector("#userIcon");
 const houseIcon = resultPage.querySelector("#houseIcon");
-const messageWhoWin = document.querySelector("#whoWin");
+const messageWhoWon = document.querySelector("#whoWon");
 const playAgainButton = document.querySelector("#playAgain");
 //SOUNDS GLOBALS
 const bgSound = document.querySelector("[data-sound=bg-sound]");
 const audioUserChoice = document.querySelector("[data-sound=user-choice]");
-const audioYouWin = document.querySelector("[data-sound=you-win]");
+const audioYouWon = document.querySelector("[data-sound=you-won]");
 const audioYouLose = document.querySelector("[data-sound=you-lose]");
 const audioDraw = document.querySelector("[data-sound=draw]");
 const audioGameOver = document.querySelector("[data-sound=draw]");
@@ -82,7 +82,7 @@ const handleClick = (event) => {
   userIcon.classList.remove("scissors", "spock", "paper", "lizard", "rock");
   houseIcon.classList.remove("scissors", "spock", "paper", "lizard", "rock");
   playAgainButton.style.display = "none";
-  messageWhoWin.style.display = "none";
+  messageWhoWon.style.display = "none";
   houseIcon.style.display = "none";
 
   const userPlayerChoice = event.target.dataset.choice;
@@ -95,7 +95,7 @@ const handleClick = (event) => {
   scoreTotal = 0;
   
   // PRINT SCORE
-  whoWin = () => {
+  whoWon = () => {
     // Get the current score from local storage or set it to 0 if not found
     scoreTotal = parseInt(localStorage.getItem('score')) || 0;
     score.innerHTML = scoreTotal;
@@ -114,7 +114,7 @@ const handleClick = (event) => {
     };
     // Check if the player has reached the maximum amount of tries
     if (tries === 0) {
-      messageWhoWin.innerHTML = '<div id="game-over">Refresh🤪</div>';
+      messageWhoWon.innerHTML = '<div id="game-over">Refresh🤪</div>';
       setTimeout(() => {
         audioGameOver.play();
       }, 1000);
@@ -126,7 +126,7 @@ const handleClick = (event) => {
     
     // GAME RULES CONDITIONS
     if (userPlayerChoice == housePlayerChoice) {
-      messageWhoWin.innerHTML = '<div id="draw-message">DRAW &#128580;<div>';
+      messageWhoWon.innerHTML = '<div id="draw-message">DRAW &#128580;<div>';
       setTimeout(() => {
         audioDraw.play();
       }, 1000);
@@ -142,7 +142,7 @@ const handleClick = (event) => {
       (userPlayerChoice == "rock" &&
         (housePlayerChoice == "spock" || housePlayerChoice == "paper"))
     ) {
-      messageWhoWin.innerHTML =
+      messageWhoWon.innerHTML =
         '<div id="you-lose-message">YOU LOSE &#129324;</div>';
       scoreTotal = scoreTotal - 1;
       setTimeout(() => {
@@ -151,11 +151,11 @@ const handleClick = (event) => {
       localStorage.setItem('score', scoreTotal);
       showScoreTotal();
     } else {
-      messageWhoWin.innerHTML =
-        '<div id="you-win-message">YOU WIN &#128513;</div>;';
+      messageWhoWon.innerHTML =
+        '<div id="you-won-message">YOU WIN &#128513;</div>;';
       scoreTotal = scoreTotal + 1;
       setTimeout(() => {
-        audioYouWin.play();
+        audioYouWon.play();
       }, 1000);
       localStorage.setItem('score', scoreTotal);
       showScoreTotal();
@@ -163,14 +163,14 @@ const handleClick = (event) => {
   };
 
   setTimeout(() => {
-    whoWin();
+    whoWon();
   }, 1000);
 
   setTimeout(() => {
     houseIcon.style.display = "block";
     houseIcon.classList.add(housePlayerChoice);
     setTimeout(() => {
-      messageWhoWin.style.display = "block";
+      messageWhoWon.style.display = "block";
       playAgainButton.style.display = "block";
     }, 1000);
   }, 1000);
