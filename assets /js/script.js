@@ -1,3 +1,26 @@
+// GLOBALS
+const allChoices = ["scissors", "spock", "paper", "lizard", "rock"];
+const startPage = document.querySelector("#startPage");
+const arrChoices = startPage.querySelectorAll("div");
+const resultPage = document.querySelector("#resultPage");
+const containerScore = document.querySelectorAll(".score")[0];
+const score = document.querySelector("#score");
+const userIcon = resultPage.querySelector("#userIcon");
+const houseIcon = resultPage.querySelector("#houseIcon");
+const messageWhoWon = document.querySelector("#whoWon");
+const playAgainButton = document.querySelector("#playAgain");
+//SOUNDS GLOBALS
+const bgSound = document.querySelector("[data-sound=bg-sound]");
+const audioUserChoice = document.querySelector("[data-sound=user-choice]");
+const audioYouWon = document.querySelector("[data-sound=you-won]");
+const audioYouLose = document.querySelector("[data-sound=you-lose]");
+const audioDraw = document.querySelector("[data-sound=draw]");
+const audioGameOver = document.querySelector("[data-sound=draw]");
+// MODAL
+const modal = document.querySelector("#modal");
+const modalContent = document.querySelector("#modalContent");
+const btnOpenModal = document.querySelector("#openModal");
+const xCloseModal = document.querySelector("#closeModal");
 // AUDIO PLAYER
 const audio = document.getElementById("audio");
 const playButton = document.getElementById("play-button");
@@ -34,11 +57,7 @@ function updateClock() {
 }
 
 setInterval(updateClock, 1000);
-// MODAL
-const modal = document.querySelector("#modal");
-const modalContent = document.querySelector("#modalContent");
-const btnOpenModal = document.querySelector("#openModal");
-const xCloseModal = document.querySelector("#closeModal");
+
 
 btnOpenModal.addEventListener("click", () => {
   modal.style.display = "block";
@@ -54,28 +73,10 @@ window.addEventListener("click", (event) => {
     modal.style.display = "none";
   }
 });
-// GLOBALS
-const allChoices = ["scissors", "spock", "paper", "lizard", "rock"];
-const startPage = document.querySelector("#startPage");
-const arrChoices = startPage.querySelectorAll("div");
-const resultPage = document.querySelector("#resultPage");
-const containerScore = document.querySelectorAll(".score")[0];
-const score = document.querySelector("#score");
-const userIcon = resultPage.querySelector("#userIcon");
-const houseIcon = resultPage.querySelector("#houseIcon");
-const messageWhoWon = document.querySelector("#whoWon");
-const playAgainButton = document.querySelector("#playAgain");
-//SOUNDS GLOBALS
-const bgSound = document.querySelector("[data-sound=bg-sound]");
-const audioUserChoice = document.querySelector("[data-sound=user-choice]");
-const audioYouWon = document.querySelector("[data-sound=you-won]");
-const audioYouLose = document.querySelector("[data-sound=you-lose]");
-const audioDraw = document.querySelector("[data-sound=draw]");
-const audioGameOver = document.querySelector("[data-sound=draw]");
 
 // START PLAY
-let tries = 6; // Add a variable to store the amount of tries
 
+let tries = 6; // Add a variable to store the amount of tries
 const handleClick = (event) => {
   audioUserChoice.play();
   document.body.classList.toggle("result");
